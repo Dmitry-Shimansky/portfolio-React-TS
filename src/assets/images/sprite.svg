@@ -310,6 +310,356 @@
             </clipPath>
         </defs>
     </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.7558 31.2367"  id="left-quotes">
+        <path d="M32.29 15.96C36.75 15.96 39.75 19.06 39.75 23.65C39.75 27.79 36.3 31.23 31.62 31.23C26.5 31.23 22.71 27.1 22.71 20.78C22.71 6.43 33.18 0.69 39.75 0L39.75 6.31C35.3 7.11 30.29 11.59 30.06 16.53C30.29 16.42 31.17 15.96 32.29 15.96ZM9.57 15.96C14.03 15.96 17.03 19.06 17.03 23.65C17.03 27.79 13.58 31.23 8.9 31.23C3.78 31.23 0 27.1 0 20.78C0 6.43 10.46 0.69 17.03 0L17.03 6.31C12.58 7.11 7.57 11.59 7.34 16.53C7.57 16.42 8.46 15.96 9.57 15.96Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.7558 31.2367"  id="right-quotes">
+        <path d="M7.45 15.27C3.01 15.27 0 12.17 0 7.57C0 3.44 3.45 0 8.13 0C13.25 0 17.03 4.13 17.03 10.45C17.03 24.8 6.57 30.54 0 31.23L0 24.92C4.45 24.11 9.46 19.63 9.68 14.69C9.46 14.81 8.57 15.27 7.45 15.27ZM30.17 15.27C25.72 15.27 22.71 12.17 22.71 7.57C22.71 3.44 26.17 0 30.84 0C35.97 0 39.75 4.13 39.75 10.45C39.75 24.8 29.28 30.54 22.71 31.23L22.71 24.92C27.17 24.11 32.18 19.63 32.4 14.69C32.18 14.81 31.29 15.27 30.17 15.27Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.7558 31.2367"  id="yellow-square">
+        <defs>
+            <clipPath id="clip13_1898">
+                <rect rx="0.000000" width="169.650696" height="155.025635" transform="translate(0.365626 0.365626)" fill="white" fill-opacity="0"/>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#clip13_1898)">
+            <rect id="Rectangle 1" x="5.118164" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 81" x="59.962280" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 161" x="114.806396" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 17" x="16.086792" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 82" x="70.931152" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 162" x="125.775391" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 33" x="27.056519" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 83" x="81.899902" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 163" x="136.744385" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 49" x="38.024902" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 84" x="92.868896" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 164" x="147.713013" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 65" x="48.993896" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 85" x="103.837769" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 165" x="158.681641" y="2.194336" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 2" x="5.118164" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 86" x="59.962280" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 166" x="114.806396" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 18" x="16.086792" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 87" x="70.931152" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 167" x="125.775391" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 34" x="27.056519" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 88" x="81.899902" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 168" x="136.744385" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 50" x="38.024902" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 89" x="92.868896" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 169" x="147.713013" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 66" x="48.993896" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 90" x="103.837769" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 170" x="158.681641" y="11.700684" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 3" x="5.118164" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 91" x="59.962280" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 171" x="114.806396" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 19" x="16.086792" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 92" x="70.931152" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 172" x="125.775391" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 35" x="27.056519" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 93" x="81.899902" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 173" x="136.744385" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 51" x="38.024902" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 94" x="92.868896" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 174" x="147.713013" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 67" x="48.993896" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 95" x="103.837769" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 175" x="158.681641" y="21.207031" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 4" x="5.118164" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 96" x="59.962280" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 176" x="114.806396" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 20" x="16.086792" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 97" x="70.931152" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 177" x="125.775391" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 36" x="27.056519" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 98" x="81.899902" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 178" x="136.744385" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 52" x="38.024902" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 99" x="92.868896" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 179" x="147.713013" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 68" x="48.993896" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 100" x="103.837769" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 180" x="158.681641" y="30.713379" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 5" x="5.118164" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 101" x="59.962280" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 181" x="114.806396" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 21" x="16.086792" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 102" x="70.931152" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 182" x="125.775391" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 37" x="27.056519" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 103" x="81.899902" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 183" x="136.744385" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 53" x="38.024902" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 104" x="92.868896" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 184" x="147.713013" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 69" x="48.993896" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 105" x="103.837769" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 185" x="158.681641" y="40.219238" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 6" x="5.118164" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 106" x="59.962280" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 186" x="114.806396" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 22" x="16.086792" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 107" x="70.931152" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 187" x="125.775391" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 38" x="27.056519" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 108" x="81.899902" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 188" x="136.744385" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 54" x="38.024902" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 109" x="92.868896" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 189" x="147.713013" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 70" x="48.993896" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 110" x="103.837769" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 190" x="158.681641" y="49.725586" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 7" x="5.118164" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 111" x="59.962280" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 191" x="114.806396" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 23" x="16.086792" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 112" x="70.931152" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 192" x="125.775391" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 39" x="27.056519" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 113" x="81.899902" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 193" x="136.744385" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 55" x="38.024902" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 114" x="92.868896" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 194" x="147.713013" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 71" x="48.993896" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 115" x="103.837769" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 195" x="158.681641" y="59.231934" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 8" x="5.118164" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 116" x="59.962280" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 196" x="114.806396" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 24" x="16.086792" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 117" x="70.931152" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 197" x="125.775391" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 40" x="27.056519" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 118" x="81.899902" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 198" x="136.744385" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 56" x="38.024902" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 119" x="92.868896" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 199" x="147.713013" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 72" x="48.993896" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 120" x="103.837769" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 200" x="158.681641" y="68.737793" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 9" x="5.118164" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 121" x="59.962280" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 201" x="114.806396" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 25" x="16.086792" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 122" x="70.931152" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 202" x="125.775391" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 41" x="27.056519" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 123" x="81.899902" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 203" x="136.744385" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 57" x="38.024902" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 124" x="92.868896" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 204" x="147.713013" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 73" x="48.993896" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 125" x="103.837769" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 205" x="158.681641" y="78.244141" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 10" x="5.118164" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 126" x="59.962280" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 206" x="114.806396" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 26" x="16.086792" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 127" x="70.931152" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 207" x="125.775391" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 42" x="27.056519" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 128" x="81.899902" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 208" x="136.744385" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 58" x="38.024902" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 129" x="92.868896" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 209" x="147.713013" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 74" x="48.993896" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 130" x="103.837769" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 210" x="158.681641" y="87.750000" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 11" x="5.118164" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 131" x="59.962280" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 211" x="114.806396" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 27" x="16.086792" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 132" x="70.931152" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 212" x="125.775391" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 43" x="27.056519" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 133" x="81.899902" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 213" x="136.744385" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 59" x="38.024902" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 134" x="92.868896" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 214" x="147.713013" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 75" x="48.993896" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 135" x="103.837769" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 215" x="158.681641" y="97.256836" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 12" x="5.118164" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 136" x="59.962280" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 216" x="114.806396" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 28" x="16.086792" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 137" x="70.931152" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 217" x="125.775391" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 44" x="27.056519" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 138" x="81.899902" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 218" x="136.744385" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 60" x="38.024902" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 139" x="92.868896" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 219" x="147.713013" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 76" x="48.993896" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 140" x="103.837769" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 220" x="158.681641" y="106.762695" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 13" x="5.118164" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 141" x="59.962280" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 221" x="114.806396" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 29" x="16.086792" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 142" x="70.931152" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 222" x="125.775391" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 45" x="27.056519" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 143" x="81.899902" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 223" x="136.744385" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 61" x="38.024902" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 144" x="92.868896" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 224" x="147.713013" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 77" x="48.993896" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 145" x="103.837769" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 225" x="158.681641" y="116.269531" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 14" x="5.118164" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 146" x="59.962280" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 226" x="114.806396" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 30" x="16.086792" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 147" x="70.931152" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 227" x="125.775391" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 46" x="27.056519" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 148" x="81.899902" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 228" x="136.744385" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 62" x="38.024902" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 149" x="92.868896" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 229" x="147.713013" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 78" x="48.993896" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 150" x="103.837769" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 230" x="158.681641" y="125.775879" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 15" x="5.118164" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 151" x="59.962280" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 231" x="114.806396" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 31" x="16.086792" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 152" x="70.931152" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 232" x="125.775391" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 47" x="27.056519" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 153" x="81.899902" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 233" x="136.744385" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 63" x="38.024902" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 154" x="92.868896" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 234" x="147.713013" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 79" x="48.993896" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 155" x="103.837769" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 235" x="158.681641" y="135.282227" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 16" x="5.118164" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 156" x="59.962280" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 236" x="114.806396" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 32" x="16.086792" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 157" x="70.931152" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 237" x="125.775391" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 48" x="27.056519" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 158" x="81.899902" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 238" x="136.744385" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 64" x="38.024902" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 159" x="92.868896" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 239" x="147.713013" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 80" x="48.993896" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 160" x="103.837769" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+            <rect id="Rectangle 240" x="158.681641" y="144.788086" width="7.312530" height="7.312530" fill="#FCC028" fill-opacity="1.000000"/>
+        </g>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" id="man-standing">
+        <defs>
+            <clipPath id="clip1_4648">
+                <rect id="man standing on chats 1" rx="0.000000" width="562.000000" height="411.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#clip1_4648)">
+            <path id="Vector" d="M485.87 398.88L368.23 399.31C337.02 388.96 311.45 352.99 311.29 299.07C311.26 290.95 311.81 282.84 312.95 274.82L407.7 251.31L480.8 233.18C486.18 238.51 491.2 244.27 495.81 250.42L425.92 291.17L392.94 310.39L430 296.28L506.9 266.99C511.69 275.08 515.97 283.54 519.69 292.3L496.48 318.78L522.73 299.8C522.84 300.09 522.95 300.39 523.07 300.68C539.7 344.28 519.06 398.76 485.87 398.88Z" fill="#DEDDDD" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M466.53 220.98C448.74 226.62 426.87 233.75 404.39 241.15C371.87 251.87 338.07 263.18 313.47 271.44L313.48 271.34C314.39 265.54 316.53 260.06 319.72 255.35C337.95 229.18 361.16 210.9 386.99 204.11L387 204.11C394.26 202.2 401.7 201.22 409.17 201.19C429.72 201.12 449.19 208.24 466.53 220.98Z" fill="#DEDDDD" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M129.79 317.36L109.45 384.61L104.46 401.14C102.05 405.15 99.19 408.8 95.93 412L95.45 412C69.83 412 46.56 410.54 29.41 408.18L31.8 387.98L36.92 344.65L43.47 289.16C47.34 286.38 51.39 283.91 55.6 281.79L61.37 339.34L64.1 366.49L64.89 337.42L66.52 277.08C71.69 275.24 76.97 273.82 82.32 272.84L90.9 294.43L86.84 272.12C87.02 272.09 87.19 272.07 87.37 272.04C113.4 268.58 136.93 293.72 129.79 317.36Z" fill="#DEDDDD" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M34.1 296.97C33.13 310.71 32.05 327.64 30.97 345.06C30.07 359.71 29.18 374.7 28.37 388.44C27.97 395.29 27.59 401.83 27.25 407.86C24.33 407.43 21.61 406.97 19.1 406.5C16.62 401.64 14.5 396.58 12.77 391.35C8.36 378.05 6.67 364.1 8.15 350.33L8.15 350.32C8.75 344.77 9.86 339.29 11.47 333.99C15.85 319.62 23.67 306.83 34.1 296.97Z" fill="#DEDDDD" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M190.91 398.23C190.91 405.81 148.43 411.96 95.93 412L95.45 412C69.83 412 46.56 410.54 29.41 408.18C28.68 408.07 27.96 407.97 27.25 407.86C24.33 407.43 21.61 406.97 19.1 406.5C7.1 404.19 0 401.33 0 398.23C0 395.72 4.64 393.38 12.77 391.35C17.06 390.28 22.31 389.3 28.37 388.44C29.48 388.28 30.63 388.12 31.8 387.97C48.69 385.79 71 384.47 95.45 384.47C100.21 384.47 104.88 384.52 109.45 384.61C155.53 385.59 190.91 391.31 190.91 398.23Z" fill="#3F3D56" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M76.94 277.74L79.34 298.39C79.34 298.39 80.3 305.28 81.26 308.99C81.26 308.99 80.3 328.58 87.97 342.35L92.77 352.42L93.73 367.25L105.72 368.84L103.33 346.59C103.33 346.59 102.37 336 103.33 331.76C104.28 327.52 98.53 307.93 98.53 307.93C98.53 307.93 106.2 280.38 100.45 273.5C94.69 266.61 76.94 277.74 76.94 277.74Z" fill="#DAAB85" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M98.05 363.01C98.05 363.01 92.77 363.01 92.29 364.6C91.81 366.19 84.14 380.49 84.14 380.49C84.14 380.49 77.42 392.14 87.01 392.67C96.61 393.2 99.49 388.43 99.49 388.43C99.49 388.43 108.12 373.07 108.6 370.43C109.08 367.78 105 362.1 105 362.1C105 362.1 99.49 366.19 98.05 363.01Z" fill="#2F2E41" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M121.07 85.47C121.07 95.42 113.77 103.48 104.76 103.48C95.76 103.48 88.45 95.42 88.45 85.47C88.45 75.53 95.76 67.46 104.76 67.46C113.77 67.46 121.07 75.53 121.07 85.47Z" fill="#DAAB85" fill-opacity="1.000000" fill-rule="evenodd"/>
+            <path id="Vector" d="M91.57 91.03C91.57 91.03 91.57 110.63 85.34 112.22C79.1 113.81 93.97 131.82 102.13 129.7C110.28 127.58 113.64 113.28 113.64 113.28C113.64 113.28 106.44 103.22 109.32 97.92C112.2 92.62 91.57 91.03 91.57 91.03Z" fill="#DAAB85" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M98.53 118.31C96.24 118.23 94 117.55 92 116.32C89.99 115.09 88.29 113.35 87.02 111.24C87.02 111.24 80.3 112.49 79.34 113.02C78.38 113.54 61.59 119.37 57.75 131.55L73.1 153.27C73.1 153.27 69.75 183.99 73.1 197.76C75.1 206.01 74.6 214.75 71.66 222.65C71.66 222.65 70.23 223.18 72.62 224.24C75.02 225.3 130.19 213.12 131.15 209.94C132.11 206.76 130.19 206.76 131.63 205.17C133.07 203.59 136.9 194.05 133.07 190.87C129.23 187.7 126.83 152.74 126.83 152.74L136.9 124.67C136.9 124.67 118.49 108.42 111.87 110.45C111.87 110.45 110.52 118.31 98.53 118.31Z" fill="#D0CDE6" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M104.76 267.14C104.76 267.14 103.8 290.45 105.72 299.45C107.64 308.46 107.64 312.16 107.64 312.16C107.64 312.16 104.76 327.52 106.2 341.82C107.64 356.12 104.52 379.18 104.52 379.18L116.28 383.14L123.47 342.88C123.47 342.88 129.23 317.99 125.87 306.34C125.87 306.34 127.79 270.85 129.23 267.14C130.67 263.44 104.76 267.14 104.76 267.14Z" fill="#DAAB85" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M91.89 88.68C92.11 86.99 92.57 85.15 93.87 84.23C95.22 83.29 96.97 83.67 98.57 83.8C100.17 83.93 102.13 83.49 102.66 81.82C102.99 80.77 102.63 79.53 103.14 78.58C103.96 77.07 106.44 77.24 106.87 75.55C107.01 75.01 106.87 74.41 107.07 73.9C107.34 73.21 108.08 72.93 108.74 72.76C111.16 72.15 113.65 71.9 116.13 72.05C116.38 72.09 116.63 72.04 116.84 71.89C116.95 71.77 117.02 71.62 117.06 71.46C117.62 69.6 117.03 67.5 115.91 65.98C114.72 64.52 113.26 63.37 111.62 62.6C108 60.66 104.07 59.51 100.06 59.2C96.99 58.99 93.78 59.36 91.18 61.14C90.4 61.68 89.69 62.31 89.04 63.02C86.2 66.16 84.36 70.22 83.77 74.61C83.19 78.98 83.64 83.45 85.05 87.58C85.88 90.07 87.19 92.64 89.21 94.17C90.29 94.99 91.23 95.75 91.68 94.36C92.15 92.88 91.68 90.32 91.89 88.68Z" fill="#2F2E41" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M74.06 219.47C74.06 219.47 66.87 230.07 68.31 237.48C69.75 244.9 75.02 257.08 75.02 257.08C75.02 257.08 72.14 280.91 76.94 280.91C81.74 280.91 102.37 279.85 102.85 277.21C103.33 274.56 101.41 248.08 101.41 248.08C101.41 248.08 103.8 271.38 105.24 271.38C106.68 271.38 131.63 274.03 132.59 272.44C133.55 270.85 135.47 230.07 135.47 230.07C135.47 230.07 138.08 210.83 129.82 208.27C121.55 205.7 74.06 219.47 74.06 219.47Z" fill="#2F2E41" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M112.44 378.9C112.44 378.9 103.8 373.6 103.33 377.84C102.85 382.08 97.57 397.44 97.57 397.44C97.57 397.44 92.29 409.62 103.8 410.15C115.32 410.68 118.2 404.85 118.2 402.2C118.2 399.56 116.91 381.39 116.91 381.39L112.44 378.9Z" fill="#2F2E41" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M142.18 153.27L144.58 176.57C144.58 176.57 147.46 189.28 145.54 194.58C143.62 199.88 136.42 224.24 136.42 224.24C136.42 224.24 134.5 211 129.71 209.41L132.59 179.22C132.59 179.22 125.72 160.38 127.23 157.88C128.75 155.39 142.18 153.27 142.18 153.27Z" fill="#DAAB85" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M56.79 154.86L57.75 176.04C57.75 176.04 54.4 194.58 61.11 214.18L62.07 222.65L68.31 235.89C68.31 235.89 69.75 223.18 72.62 223.18C72.62 223.18 69.75 214.71 70.7 209.94C71.66 205.17 70.23 179.75 70.23 179.75L72.62 159.18L56.79 154.86Z" fill="#DAAB85" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M131.63 124.14L136.9 124.14C136.9 124.14 149.38 155.92 144.58 156.45C139.78 156.98 124.43 161.21 123.95 159.09C123.47 156.98 131.63 124.14 131.63 124.14Z" fill="#D0CDE6" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M62.07 126.79L57.75 131.55C57.75 131.55 52 155.39 56.31 158.03C60.63 160.68 76.94 163.86 77.9 161.74C78.86 159.62 62.07 126.79 62.07 126.79Z" fill="#D0CDE6" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M405.99 16.5L405.99 383.81C405.99 388.18 404.41 392.38 401.61 395.47C398.81 398.56 395.01 400.3 391.04 400.3L255.99 400.3C254.03 400.31 252.08 399.88 250.27 399.06C248.45 398.23 246.8 397.01 245.41 395.48C244.02 393.95 242.92 392.13 242.17 390.13C241.42 388.12 241.04 385.98 241.04 383.81L241.04 16.5C241.04 14.33 241.43 12.19 242.18 10.18C242.93 8.18 244.03 6.36 245.42 4.83C246.81 3.3 248.45 2.08 250.27 1.25C252.08 0.42 254.03 -0.01 255.99 0L276.2 0L276.2 2.86C276.2 6.46 277.5 9.92 279.8 12.47C282.11 15.02 285.24 16.45 288.51 16.45L357.2 16.45C359.82 16.46 362.38 15.53 364.49 13.8C364.92 13.46 365.32 13.08 365.7 12.68C366.91 11.41 367.86 9.89 368.52 8.2C369.17 6.51 369.5 4.69 369.5 2.86L369.5 0L391.04 0C393.01 -0.01 394.95 0.42 396.76 1.25C398.58 2.08 400.23 3.3 401.61 4.83C403 6.36 404.1 8.18 404.86 10.18C405.61 12.19 405.99 14.33 405.99 16.5Z" fill="#3F3D56" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <g opacity="0.100000">
+                <path id="Vector" d="M380.8 147.69C380.8 152.38 363.57 156.19 342.31 156.19C321.05 156.19 303.82 152.38 303.82 147.69C303.82 143 321.05 139.19 342.31 139.19C363.57 139.19 380.8 143 380.8 147.69Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </g>
+            <g opacity="0.100000">
+                <path id="Vector" d="M324.86 191.32C324.86 196.02 307.63 199.82 286.37 199.82C265.11 199.82 247.88 196.02 247.88 191.32C247.88 186.63 265.11 182.82 286.37 182.82C307.63 182.82 324.86 186.63 324.86 191.32Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </g>
+            <g opacity="0.100000">
+                <path id="Vector" d="M356.68 271.22C356.68 275.92 339.45 279.72 318.19 279.72C296.93 279.72 279.7 275.92 279.7 271.22C279.7 266.53 296.93 262.72 318.19 262.72C339.45 262.72 356.68 266.53 356.68 271.22Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </g>
+            <g opacity="0.100000">
+                <path d="M345.9 357.92C345.9 362.61 328.67 366.42 307.41 366.42C286.15 366.42 268.92 362.61 268.92 357.92C268.92 353.23 286.15 349.42 307.41 349.42C328.67 349.42 345.9 353.23 345.9 357.92Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </g>
+            <path id="Vector" d="M441.11 228.64L324.09 228.64L324.09 241.26L324.09 260.49L324.09 271.3L333.89 260.49L441.11 260.49L441.11 228.64Z" fill="#6C63FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M162.17 147.32L279.19 147.32L279.19 159.95L279.19 179.17L279.19 189.99L269.39 179.17L162.17 179.17L162.17 147.32Z" fill="#6C63FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M350.2 236.37L416.03 236.37L416.03 242.27L350.2 242.27L350.2 236.37Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            <path id="Vector" d="M350.2 245.21L416.03 245.21L416.03 251.1L350.2 251.1L350.2 245.21Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            <path id="Vector" d="M182.12 155.62L247.95 155.62L247.95 161.52L182.12 161.52L182.12 155.62Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            <path id="Vector" d="M182.12 164.46L247.95 164.46L247.95 170.36L182.12 170.36L182.12 164.46Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            <path id="Vector" d="M563 67.22L342.31 67.22L342.31 91.03L342.31 127.29L342.31 147.69L360.79 127.29L563 127.29L563 67.22Z" fill="#6C63FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M376.7 80.82L528.61 80.82L528.61 94.42L376.7 94.42L376.7 80.82Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            <path id="Vector" d="M376.7 101.22L528.61 101.22L528.61 114.82L376.7 114.82L376.7 101.22Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            <path id="Vector" d="M293.47 340.92C299.09 352.43 311.01 357.36 311.01 357.36C311.01 357.36 313.83 343.65 308.21 332.15C302.59 320.65 290.67 315.71 290.67 315.71C290.67 315.71 287.86 329.42 293.47 340.92Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path id="Vector" d="M297.33 337.14C307.48 343.88 311.38 357.26 311.38 357.26C311.38 357.26 298.85 359.72 288.7 352.98C278.56 346.24 274.66 332.86 274.66 332.86C274.66 332.86 287.19 330.4 297.33 337.14Z" fill="#6C63FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+        </g>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" id="facebook-dark">
+        <defs>
+            <clipPath id="clip11_6561">
+                <rect id="Facebook" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+            </clipPath>
+        </defs>
+        <rect id="Facebook" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+        <g clip-path="url(#clip11_6561)">
+            <path d="M16.5 6L13.5 6C12.94 6 12.5 6.44 12.5 7L12.5 10L16.5 10C16.61 9.99 16.72 10.05 16.78 10.14C16.85 10.23 16.87 10.35 16.84 10.46L16.1 12.65C16.03 12.86 15.84 12.99 15.63 13L12.5 13L12.5 20.5C12.5 20.77 12.27 21 12 21L9.5 21C9.22 21 9 20.77 9 20.5L9 13L7.5 13C7.22 13 7 12.77 7 12.5L7 10.5C7 10.22 7.22 10 7.5 10L9 10L9 7C9 4.79 10.79 3 13 3L16.5 3C16.77 3 17 3.22 17 3.5L17 5.5C17 5.77 16.77 6 16.5 6Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+        </g>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" id="instagram-dark">
+        <defs>
+            <clipPath id="clip11_6563">
+                <rect id="Instagram" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+            </clipPath>
+        </defs>
+        <rect id="Instagram" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+        <g clip-path="url(#clip11_6563)">
+            <path d="M16 3L8 3C5.23 3 3 5.23 3 8L3 16C3 18.76 5.23 21 8 21L16 21C18.76 21 21 18.76 21 16L21 8C21 5.23 18.76 3 16 3ZM19.25 16C19.24 17.79 17.79 19.24 16 19.25L8 19.25C6.2 19.24 4.75 17.79 4.75 16L4.75 8C4.75 6.2 6.2 4.75 8 4.75L16 4.75C17.79 4.75 19.24 6.2 19.25 8L19.25 16ZM16.75 8.25C17.3 8.25 17.75 7.8 17.75 7.25C17.75 6.69 17.3 6.25 16.75 6.25C16.19 6.25 15.75 6.69 15.75 7.25C15.75 7.8 16.19 8.25 16.75 8.25ZM12 7.5C9.51 7.5 7.5 9.51 7.5 12C7.5 14.48 9.51 16.5 12 16.5C14.48 16.5 16.5 14.48 16.5 12C16.5 10.8 16.02 9.65 15.18 8.81C14.34 7.97 13.19 7.49 12 7.5ZM9.25 12C9.25 13.51 10.48 14.75 12 14.75C13.51 14.75 14.75 13.51 14.75 12C14.75 10.48 13.51 9.25 12 9.25C10.48 9.25 9.25 10.48 9.25 12Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+        </g>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" id="twitter-dark">
+        <defs>
+            <clipPath id="clip11_6565">
+                <rect id="Twitter" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+            </clipPath>
+        </defs>
+        <rect id="Twitter" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+        <g clip-path="url(#clip11_6565)">
+            <path d="M20.97 6.71C20.5 7.33 19.94 7.87 19.31 8.31C19.31 8.47 19.31 8.64 19.31 8.81C19.31 11.75 18.14 14.56 16.05 16.63C13.96 18.7 11.13 19.83 8.19 19.79C6.49 19.8 4.81 19.41 3.29 18.66C3.21 18.63 3.16 18.54 3.16 18.45L3.16 18.36C3.16 18.23 3.26 18.12 3.39 18.12C5.06 18.07 6.67 17.49 7.99 16.47C6.48 16.44 5.12 15.54 4.5 14.17C4.46 14.09 4.47 14 4.52 13.94C4.57 13.87 4.65 13.84 4.73 13.84C5.19 13.89 5.65 13.85 6.1 13.72C4.43 13.37 3.17 11.99 2.99 10.29C2.99 10.21 3.02 10.13 3.09 10.08C3.16 10.04 3.24 10.03 3.32 10.06C3.77 10.25 4.25 10.36 4.74 10.36C3.28 9.4 2.65 7.58 3.2 5.92C3.26 5.76 3.4 5.64 3.56 5.61C3.73 5.57 3.9 5.63 4.02 5.76C5.99 7.86 8.7 9.11 11.58 9.25C11.5 8.95 11.47 8.65 11.47 8.35C11.5 6.76 12.48 5.34 13.96 4.76C15.44 4.19 17.12 4.56 18.22 5.71C18.97 5.56 19.69 5.31 20.37 4.96C20.42 4.93 20.48 4.93 20.53 4.96C20.56 5.01 20.56 5.07 20.53 5.12C20.2 5.87 19.65 6.5 18.95 6.92C19.56 6.85 20.16 6.7 20.74 6.49C20.79 6.45 20.86 6.45 20.9 6.49C20.95 6.51 20.98 6.54 20.99 6.59C21 6.63 20.99 6.68 20.97 6.71Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+        </g>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" id="linkedin-dark">
+        <defs>
+            <clipPath id="clip11_6567">
+                <rect id="LinkedIn" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+            </clipPath>
+        </defs>
+        <rect id="LinkedIn" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+        <g clip-path="url(#clip11_6567)">
+            <path d="M5 3L19 3C20.1 3 21 3.89 21 5L21 19C21 20.1 20.1 21 19 21L5 21C3.89 21 3 20.1 3 19L3 5C3 3.89 3.89 3 5 3ZM8 18C8.27 18 8.5 17.77 8.5 17.5L8.5 10.5C8.5 10.22 8.27 10 8 10L6.5 10C6.22 10 6 10.22 6 10.5L6 17.5C6 17.77 6.22 18 6.5 18L8 18ZM7.25 9C6.42 9 5.75 8.32 5.75 7.5C5.75 6.67 6.42 6 7.25 6C8.07 6 8.75 6.67 8.75 7.5C8.75 8.32 8.07 9 7.25 9ZM17.5 18C17.77 18 18 17.77 18 17.5L18 12.89C18.03 11.31 16.85 9.95 15.28 9.76C14.17 9.65 13.1 10.17 12.5 11.1L12.5 10.5C12.5 10.22 12.27 10 12 10L10.5 10C10.22 10 10 10.22 10 10.5L10 17.5C10 17.77 10.22 18 10.5 18L12 18C12.27 18 12.5 17.77 12.5 17.5L12.5 13.75C12.5 12.92 13.17 12.25 14 12.25C14.82 12.25 15.5 12.92 15.5 13.75L15.5 17.5C15.5 17.77 15.72 18 16 18L17.5 18Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+        </g>
+    </symbol>
 </svg>
 
 <svg class="icon">
