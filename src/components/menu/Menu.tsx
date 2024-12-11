@@ -1,26 +1,19 @@
 import React from 'react';
 import styled from "styled-components";
 import {Icon} from "../icon/Icon";
+import {v4 as uuid} from 'uuid';
 
-export const Menu = () => {
+export const Menu = (props: {headerItems: string[]}) => {
     return (
         <StyledNav>
             <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Tech Stack</a>
-                </li>
-                <li>
-                    <a href="">Projects</a>
-                </li>
-                <li>
-                    <a href="">Contacts</a>
-                </li>
+                {props.headerItems.map((item, index) => {
+                    return (
+                        <li key={uuid()}>
+                            <a href="">{item}</a>
+                        </li>
+                    )
+                })}
             </ul>
             <ul>
                 <li>
