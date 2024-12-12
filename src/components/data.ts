@@ -64,3 +64,5 @@ export const skillsArray: Array<Skill> = [
 ];
 
 export const headerMenuItems: string[] = ["Home", "About", "Tech Stack", "Projects", "Contacts"];
+
+export const headerSocialIcons: string[] = ["github", "twitter", "linkedIn"];
