@@ -3,3 +3,10 @@ export interface Skill {
     title: string,
     text: string
 }
+
+export interface Works {
+    title: string
+    src: string
+    techstack: string
+    description: string
+}

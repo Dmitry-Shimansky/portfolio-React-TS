@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
-import {Logo} from "../../components/logo/Logo";
 import {headerMenuItems} from "../../components/data"
 import {Container} from "../../components/Container";
 import {HeaderMenu} from "./menu/HeaderMenu";
+import {NameLogo} from "../../components/logo/NameLogo";
 
 export const Header = () => {
 
@@ -11,7 +11,7 @@ export const Header = () => {
             <StyledHeader>
                 <Container>
                     <HeaderWrapper>
-                        <Logo />
+                        <NameLogo />
                         <HeaderMenu headerItems={headerMenuItems}/>
                     </HeaderWrapper>
                 </Container>
@@ -24,11 +24,12 @@ const StyledHeader = styled.header`
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999
+    z-index: 999;
 `;
 
 const HeaderWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 `;

@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         margin: 0;
-        font-family: 'Poppins', 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        font-family: 'Poppins', 'DM Sans', 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -24,6 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     
     a {
         text-decoration: none;
+        cursor: pointer;
     }
     
     ul {
@@ -33,5 +34,17 @@ export const GlobalStyle = createGlobalStyle`
     button {
         background-color: unset;
         border: none;
+        cursor: pointer;
+    }
+    
+    section {
+        padding: 100px 0;
+    }
+    
+    section:nth-of-type(odd) {
+        background-color: ${Theme.colors.primaryBg};
+    }
+    section:nth-of-type(even) {
+        background-color: ${Theme.colors.secondaryBg};
     }
 `

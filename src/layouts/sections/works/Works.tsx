@@ -5,69 +5,39 @@ import {SectionDescription} from "../../../components/SectionDescription";
 import {WorkCard} from "./work/WorkCard";
 import {v4 as uuid} from 'uuid';
 import image1 from "../../../assets/images/image-1.png";
+import {worksItems} from "../../../components/data"
+import {Container} from "../../../components/Container";
 
 export const Works = () => {
     return (
         <StyledWorks>
-            <SectionTitle>Projects</SectionTitle>
-            <SectionDescription>Things I’ve built so far</SectionDescription>
-            <WorksWrapper>
-                <WorkCard
-                    key={uuid()}
-                    title={"Project Tile goes here"}
-                    src={image1}
-                    techstack={"HTML , JavaScript, SASS, React"}
-                    description={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}
-                />
-                <WorkCard
-                    key={uuid()}
-                    title={"Project Tile goes here"}
-                    src={image1}
-                    techstack={"HTML , JavaScript, SASS, React"}
-                    description={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}
-                />
-                <WorkCard
-                    key={uuid()}
-                    title={"Project Tile goes here"}
-                    src={image1}
-                    techstack={"HTML , JavaScript, SASS, React"}
-                    description={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}
-                />
-                <WorkCard
-                    key={uuid()}
-                    title={"Project Tile goes here"}
-                    src={image1}
-                    techstack={"HTML , JavaScript, SASS, React"}
-                    description={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}
-                />
-                <WorkCard
-                    key={uuid()}
-                    title={"Project Tile goes here"}
-                    src={image1}
-                    techstack={"HTML , JavaScript, SASS, React"}
-                    description={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}
-                />
-                <WorkCard
-                    key={uuid()}
-                    title={"Project Tile goes here"}
-                    src={image1}
-                    techstack={"HTML , JavaScript, SASS, React"}
-                    description={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"}
-                />
-            </WorksWrapper>
+            <Container>
+                <SectionTitle>Projects</SectionTitle>
+                <SectionDescription>Things I’ve built so far</SectionDescription>
+                <WorksWrapper>
+                    {worksItems.map(item => {
+                        return <WorkCard
+                            key={uuid()}
+                            title={item.title}
+                            src={image1}
+                            techstack={item.techstack}
+                            description={item.description}
+                        />
+                    })}
+                </WorksWrapper>
+            </Container>
         </StyledWorks>
     );
 };
 
 const StyledWorks = styled.section`
-    min-height: 100px;
-    background-color: lightyellow;
+    
 `;
 
 const WorksWrapper = styled.div`
-        display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
-    gap: 5px;
+    row-gap: 62px;
 `;

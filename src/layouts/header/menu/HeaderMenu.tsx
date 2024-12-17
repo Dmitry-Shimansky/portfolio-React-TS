@@ -39,6 +39,7 @@ const StyledNav = styled.nav`
     justify-content: flex-end;
     align-items: center;
     gap: 51px;
+    height: 100%;
 `;
 
 const List = styled.ul`
@@ -46,6 +47,7 @@ const List = styled.ul`
     justify-content: flex-end;
     align-items: center;
     gap: 67px;
+    height: 100%;
 `;
 
 const Mask = styled.span`

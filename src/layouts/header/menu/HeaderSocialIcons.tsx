@@ -24,10 +24,11 @@ const StyledIcons = styled.ul`
     justify-content: flex-end;
     align-items: center;
     gap: 22px;
+    height: 100%;
 `;
 
 const LstItem = styled.li`
-
+    
 `;
 
 const Link = styled.a`
