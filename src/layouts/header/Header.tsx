@@ -5,6 +5,7 @@ import {Container} from "../../components/Container";
 import {HeaderMenu} from "./menu/HeaderMenu";
 import {NameLogo} from "../../components/logo/NameLogo";
 import {MobileMenu} from "./mobileMenu/MobileMenu";
+import {Theme} from "../../styles/Theme";
 
 export const Header = () => {
 
@@ -33,6 +34,7 @@ const HeaderWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 36px;
-    height: 100%;
+    height: 55px;
+    border-bottom: 2px solid rgba(102, 102, 102, 0.3);
+    background-color: ${Theme.colors.primaryBg};
 `;
