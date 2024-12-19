@@ -40,6 +40,15 @@ const StyledNav = styled.nav`
     align-items: center;
     gap: 51px;
     height: 100%;
+    width: 100%;
+
+    @media ${Theme.media.desktop1100} {
+        justify-content: space-between;
+    }
+
+    @media ${Theme.media.mobile} {
+        display: none;
+    }
 `;
 
 const List = styled.ul`
@@ -48,6 +57,12 @@ const List = styled.ul`
     align-items: center;
     gap: 67px;
     height: 100%;
+
+    @media ${Theme.media.desktop1100} {
+        justify-content: space-between;
+        flex-grow: 1;
+        gap: 0;
+    }
 `;
 
 const Mask = styled.span`

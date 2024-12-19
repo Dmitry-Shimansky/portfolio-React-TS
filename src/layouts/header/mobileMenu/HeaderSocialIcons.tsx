@@ -22,7 +22,7 @@ export const HeaderSocialIcons = (props: {iconItems: string[]}) => {
 
 const StyledIcons = styled.ul`
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 22px;
     height: 100%;

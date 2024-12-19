@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import {Theme} from "../../styles/Theme";
 
 type NameLogoType = {
     fontSize?: string
@@ -19,6 +20,10 @@ const LogoWrapper = styled.div`
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
+
+    @media ${Theme.media.desktop1100} {
+        display: none;
+    }
 `;
 
 const FirstName = styled.span<NameLogoType>`

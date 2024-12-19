@@ -4,6 +4,7 @@ import {headerMenuItems} from "../../components/data"
 import {Container} from "../../components/Container";
 import {HeaderMenu} from "./menu/HeaderMenu";
 import {NameLogo} from "../../components/logo/NameLogo";
+import {MobileMenu} from "./mobileMenu/MobileMenu";
 
 export const Header = () => {
 
@@ -13,6 +14,7 @@ export const Header = () => {
                     <HeaderWrapper>
                         <NameLogo />
                         <HeaderMenu headerItems={headerMenuItems}/>
+                        <MobileMenu headerItems={headerMenuItems}/>
                     </HeaderWrapper>
                 </Container>
             </StyledHeader>
@@ -31,5 +33,6 @@ const HeaderWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 36px;
     height: 100%;
 `;

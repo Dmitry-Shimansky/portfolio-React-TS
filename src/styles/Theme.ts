@@ -8,5 +8,12 @@ export const Theme = {
         placeholder: "rgb(0, 0, 0 0.5)",
 
         font: "rgb(102, 102, 102)",
+    },
+
+    media: {
+        desktop1100: "screen and (max-width: 1100px)",
+        tablet860: "screen and (max-width: 860px)",
+        tablet: "screen and (max-width: 800px)",
+        mobile: "screen and (max-width: 576px)",
     }
 }
