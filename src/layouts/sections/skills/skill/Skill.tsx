@@ -12,9 +12,7 @@ type SkillPropsType = {
 export const Skill = (props: SkillPropsType) => {
     return (
         <StyledSkill>
-            <IconWrapper>
-                <Icon iconId={props.iconId} width={'100%'} height={'120px'} />
-            </IconWrapper>
+            <Icon iconId={props.iconId} width={'100%'} height={'120px'} />
             <SkillTitle>{props.title}</SkillTitle>
             <SkillText>{props.text}</SkillText>
         </StyledSkill>
@@ -28,6 +26,14 @@ const StyledSkill = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media ${Theme.media.tablet} {
+        width: 110px;
+    }
+
+    @media ${Theme.media.mobile} {
+        width: 100px;
+    }
 `;
 
 const IconWrapper = styled.div`
@@ -52,9 +58,14 @@ const IconWrapper = styled.div`
 const SkillTitle = styled.h3`
     text-transform: uppercase;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 16px;
     letter-spacing: 0;
     text-align: center;
+    margin-top: 5px;
+    
+    @media ${Theme.media.mobile} {
+        font-size: 16px;
+    }
 `;
 
 const SkillText = styled.p`

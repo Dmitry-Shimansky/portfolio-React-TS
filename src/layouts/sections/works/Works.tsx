@@ -39,5 +39,6 @@ const WorksWrapper = styled.div`
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    column-gap: 30px;
     row-gap: 62px;
 `;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {Icon} from "../../../../components/icon/Icon";
 import {Theme} from "../../../../styles/Theme";
 import {StyledButton} from "../../../../components/Button";
+import {font} from "../../../../styles/Common";
 
 type WorkCardPropsType = {
     title: string
@@ -14,6 +15,7 @@ type WorkCardPropsType = {
 export const WorkCard = (props: WorkCardPropsType) => {
     return (
         <StyledWorkCard>
+            <WorkCardWrapper>
             <ImageWrapper>
                 <Image src={props.src} alt="" />
                 <StyledButton>view project</StyledButton>
@@ -35,11 +37,18 @@ export const WorkCard = (props: WorkCardPropsType) => {
                     </LinkWrapper>
                 </LinksContainer>
             </ContentWrapper>
+            </WorkCardWrapper>
         </StyledWorkCard>
     );
 };
 
 const StyledWorkCard = styled.div`
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+`;
+
+const WorkCardWrapper = styled.div`
     max-width: 375px;
     width: 100%;
     border-radius: 20px;
@@ -48,28 +57,7 @@ const StyledWorkCard = styled.div`
 
 const ImageWrapper = styled.div`
     position: relative;
-    
-    &:hover {
-        
-        &::before {
-            content: '';
 
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            background-color: rgb(0, 0, 0, 0.3);
-            backdrop-filter: blur(4px);
-        }
-        
-        ${StyledButton} {
-            opacity: 1;
-        }
-    }
-    
     ${StyledButton} {
         opacity: 0;
         position: absolute;
@@ -78,6 +66,42 @@ const ImageWrapper = styled.div`
         transform: translate(-50%, -50%);
         text-transform: uppercase;
     }
+
+    &::before {
+        content: '';
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: rgb(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        opacity: 0;
+    }
+    
+    &:hover {
+        
+        &::before {
+            opacity: 1;
+        }
+        
+        ${StyledButton} {
+            opacity: 1;
+        }
+    }
+    
+    @media ${Theme.media.tablet} {
+        &::before {
+            opacity: 1;
+        }
+
+        ${StyledButton} {
+            opacity: 1;
+        }
+    }
 `;
 
 const Image = styled.img`
@@ -85,6 +109,8 @@ const Image = styled.img`
     height: 260px;
     object-fit: cover;
     overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 `;
 
 const ContentWrapper = styled.div`
@@ -126,6 +152,7 @@ const TechStackDescription = styled.p`
 `;
 
 const LinksContainer = styled.div`
+    width: 100%;
     display: flex;
     justify-content: space-between;
 `;
@@ -133,7 +160,6 @@ const LinksContainer = styled.div`
 const LinkWrapper = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 10px;
 `;
 

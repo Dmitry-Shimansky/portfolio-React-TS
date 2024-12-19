@@ -13,16 +13,16 @@ export const Footer = () => {
             <Container>
                 <FooterTopWrapper>
                     <NameLogo fontSize={'15px'}/>
-                    <FlexWrapper gap={'40px'}>
+                    <ContactsWrapper>
                         <EmailWrapper>
                             <Icon iconId={'phone'} width={'29px'} height={'26px'}/>
-                            <Email href={'tel:+37063033732'}>+370-630-33732</Email>
+                            <Phone href={'tel:+37063033732'}>+370-630-33732</Phone>
                         </EmailWrapper>
                         <EmailWrapper>
                             <Icon iconId={'email'} width={'29px'} height={'26px'}/>
                             <Email href={'mailto:shimansky.dmitry@gmail.com'}>shimansky.dmitry@gmail.com</Email>
                         </EmailWrapper>
-                    </FlexWrapper>
+                    </ContactsWrapper>
                     <SocialIconsList>
                         {footerSocialIcons.map(item => {
                             return <SocialIconItem>
@@ -54,8 +54,20 @@ const FooterTopWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 45px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 35px;
     border-bottom: 2px solid rgba(102, 102, 102, 0.3);
+`;
+
+const ContactsWrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+    @media ${Theme.media.tablet860} {
+        gap: 20px
+    }
 `;
 
 const EmailWrapper = styled.div`
@@ -64,11 +76,22 @@ const EmailWrapper = styled.div`
     gap: 23px;
 `;
 
+const Phone = styled.a`
+    color: ${Theme.colors.font};
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+`;
+
 const Email = styled.a`
     color: ${Theme.colors.font};
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0;
+    
+    @media ${Theme.media.mobile} {
+        font-size: 16px;
+    }
 `;
 
 const FooterBottomWrapper = styled.div`
@@ -76,6 +99,11 @@ const FooterBottomWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     padding-top: 45px;
+    
+    @media ${Theme.media.tablet} {
+        flex-direction: column;
+        text-align: center;
+    }
 `;
 
 const SocialIconsList = styled.ul`
@@ -93,9 +121,9 @@ const SocialIconLink = styled.a`
 `;
 
 const Copyright = styled.small`
-
+    
 `;
 
 const MadeBy = styled.small`
-
+    
 `;

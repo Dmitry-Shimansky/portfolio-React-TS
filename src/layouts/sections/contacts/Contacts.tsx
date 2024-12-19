@@ -13,8 +13,10 @@ export const Contacts = () => {
             <Container>
                 <SectionTitle>Contacts</SectionTitle>
                 <SectionDescription>Want to know more or just chat? <br/> You are welcome!</SectionDescription>
-                <ContactsWrapper>
+                <ContactsWrapper >
+
                     <Icon iconId={'man-standing'} width={'562px'} height={'411px'}/>
+
                     <StyledForm>
                         <Field placeholder={'name'}/>
                         <Field placeholder={'email'}/>
@@ -33,8 +35,13 @@ const StyledContacts = styled.section`
 
 const ContactsWrapper = styled.div`
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     gap: 10px;
+    
+    @media ${Theme.media.tablet860} {
+        justify-content: center;
+        
+    }
 `;
 
 const StyledForm = styled.form`
@@ -48,6 +55,10 @@ const StyledForm = styled.form`
     textarea {
         resize: none;
         height: 318px;
+    }
+
+    @media ${Theme.media.tablet860} {
+        align-items: center;
     }
 `;
 

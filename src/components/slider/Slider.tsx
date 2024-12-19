@@ -9,7 +9,7 @@ export const Slider = () => {
             <IconWrapper>
                 <Icon iconId={'left-quotes'} width={'40px'} height={'31px'} />
             </IconWrapper>
-            <Slide>
+
                 <SlideWrapper>
                     <Image src={megan} alt={""}/>
                     <Text>
@@ -18,7 +18,7 @@ export const Slider = () => {
                     <Name>Megan</Name>
                     <JobTitle>founder and ceo of warner brothers</JobTitle>
                 </SlideWrapper>
-            </Slide>
+
             <IconWrapper>
                 <Icon iconId={'right-quotes'} width={'40px'} height={'31px'} />
             </IconWrapper>
@@ -42,17 +42,12 @@ const StyledSlider = styled.div`
     border-radius: 19px;
     box-shadow: 0 4px 19px 0 rgba(19, 23, 61, 0.1);
     background-color: rgb(255, 255, 255);
-    height: 209px;
+    min-height: 209px;
+    height: 100%;
     
     ${IconWrapper}:last-of-type {
         align-items: flex-end;
     };
-`;
-
-const Slide = styled.div`
-    max-width: 508px;
-    width: 100%;
-    height: 100%;
 `;
 
 const SlideWrapper = styled.div`
@@ -60,8 +55,9 @@ const SlideWrapper = styled.div`
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    max-width: 508px;
     width: 100%;
-    height: 100%;
+    padding-top: 65px;
     
     position: relative;
 `;

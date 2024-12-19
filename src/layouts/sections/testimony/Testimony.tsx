@@ -6,28 +6,29 @@ import {Slider} from "../../../components/slider/Slider";
 import {Icon} from "../../../components/icon/Icon";
 import {Container} from "../../../components/Container";
 import {FlexWrapper} from "../../../components/FlexWrapper";
+import {Theme} from "../../../styles/Theme";
 
 export const Testimony = () => {
     return (
         <StyledTestimony>
             <Container>
-                <SectionTitle>Testimony Portfolio 19</SectionTitle>
+                <SectionTitle>Testimony</SectionTitle>
                 <SectionDescription>What People Says</SectionDescription>
                 <ContentWrapper>
                     <FlexWrapper align={'flex-start'} justify={'space-between'}>
                         <PurpleBlock />
                         <IconWrapper>
-                            <Icon iconId={'yellow-square'} width={'170px'} height={'155px'} />
+                            <Icon iconId={'yellow-square'} width={'170px'} height={'155px'} viewBox={'0 0 40 32'}/>
                         </IconWrapper>
                     </FlexWrapper>
                     <SliderWrapper>
                         <Slider />
                         <ButtonWrapper>
                             <ButtonLeft>
-                                <Icon iconId={'arrow-icon-left'} width={'50px'} height={'32px'} />
+                                <Icon iconId={'arrow-icon-left'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
                             </ButtonLeft>
                             <ButtonRight>
-                                <Icon iconId={'arrow-icon-right'} width={'50px'} height={'32px'} />
+                                <Icon iconId={'arrow-icon-right'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
                             </ButtonRight>
                         </ButtonWrapper>
                     </SliderWrapper>
@@ -82,6 +83,18 @@ const ContentWrapper = styled.div`
         left: -120px;
         top: 100px
     }
+    
+    @media ${Theme.media.desktop1100} {
+        ${SliderWrapper} {
+            position: absolute;
+            right: 50%;
+            transform: translateX(50%);
+            width: 80%;
+        }
+        ${ButtonWrapper} {
+            display: none;
+        }
+    }
 `;
 
 const PurpleBlock = styled.div`
@@ -93,4 +106,8 @@ const PurpleBlock = styled.div`
 
 const IconWrapper = styled.div`
     margin-right: 97px;
+
+    @media ${Theme.media.desktop1100} {
+        margin-right: 0;
+    }
 `;
