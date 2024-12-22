@@ -28,6 +28,7 @@ const StyledHeader = styled.header`
     left: 0;
     right: 0;
     z-index: 999;
+    background-color: ${Theme.colors.primaryBg};
 `;
 
 const HeaderWrapper = styled.div`
@@ -36,5 +37,4 @@ const HeaderWrapper = styled.div`
     align-items: center;
     height: 55px;
     border-bottom: 2px solid rgba(102, 102, 102, 0.3);
-    background-color: ${Theme.colors.primaryBg};
 `;

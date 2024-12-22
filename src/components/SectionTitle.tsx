@@ -6,7 +6,7 @@ import {font} from "../styles/Common";
 export const SectionTitle = styled.h2`
     ${font({weight: 700, Fmax: 48, Fmin: 30})}
     
-    color: ${Theme.colors.font};
+    color: ${Theme.colors.mainTitle};
     //font-size: 48px;
     //font-weight: 700;
     letter-spacing: 0;

@@ -5,13 +5,13 @@ import {headerSocialIcons} from "../../../components/data"
 import {HeaderSocialIcons} from "./HeaderSocialIcons";
 import {Theme} from "../../../styles/Theme";
 
-export const MobileMenu = (props: {headerItems: string[]}) => {
+export const MobileMenu = (props: { headerItems: string[] }) => {
     return (
         <StyledMobileNav>
-           <BurgerButton isOpen={false}>
-               <span></span>
-           </BurgerButton>
-            <MobileMenuPopup isOpen={false}>
+            <BurgerButton isOpen={true}>
+                <span></span>
+            </BurgerButton>
+            <MobileMenuPopup isOpen={true}>
                 <List>
                     {props.headerItems.map((item) => {
                         return (
@@ -33,7 +33,7 @@ export const MobileMenu = (props: {headerItems: string[]}) => {
                         )
                     })}
                 </List>
-                <HeaderSocialIcons iconItems={headerSocialIcons} />
+                <HeaderSocialIcons iconItems={headerSocialIcons}/>
             </MobileMenuPopup>
         </StyledMobileNav>
     );
@@ -47,7 +47,7 @@ const StyledMobileNav = styled.nav`
     }
 `;
 
-const BurgerButton = styled.button<{isOpen: boolean}>`
+const BurgerButton = styled.button<{ isOpen: boolean }>`
     position: fixed;
     top: -100px;
     right: -100px;
@@ -58,28 +58,28 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
         display: block;
         width: 36px;
         height: 2px;
-        background-color: ${Theme.colors.accent};
+        background-color: ${Theme.colors.mainTitle};
         position: absolute;
-        left: 40px;
-        bottom: 50px;
+        left: 53px;
+        bottom: 70px;
         z-index: 999999;
 
         ${props => props.isOpen && css<{ isOpen: boolean }>`
-            background-color: rgba(255, 255, 255, 0);
+            background-color: transparent;
         `}
-        
         &::before {
             content: '';
             display: block;
             width: 36px;
             height: 2px;
-            background-color: ${Theme.colors.accent};
+            background-color: ${Theme.colors.mainTitle};
             position: absolute;
             transform: translateY(-10px);
             z-index: 999999;
 
             ${props => props.isOpen && css<{ isOpen: boolean }>`
                 transform: rotate(-45deg) translateY(0);
+                background-color: rgba(255, 255, 255);
             `}
         }
 
@@ -88,30 +88,32 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
             display: block;
             width: 24px;
             height: 2px;
-            background-color: ${Theme.colors.accent};
+            background-color: ${Theme.colors.mainTitle};
             position: absolute;
+            right: 0;
             transform: translateY(10px);
             z-index: 999999;
 
             ${props => props.isOpen && css<{ isOpen: boolean }>`
                 transform: rotate(45deg) translateY(0);
+                background-color: rgba(255, 255, 255);
                 width: 36px;
             `}
         }
     }
 `;
 
-const MobileMenuPopup = styled.div<{isOpen: boolean}>`
+const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 99999;
+    z-index: 999;
     background-color: rgba(31, 31, 32, 0.9);
     display: none;
-    
-    ${props => props.isOpen && css<{isOpen: boolean}>`
+
+    ${props => props.isOpen && css<{ isOpen: boolean }>`
         display: flex;
         justify-content: center;
         align-items: center;
@@ -125,7 +127,7 @@ const List = styled.ul`
     align-items: center;
     gap: 67px;
     height: 100%;
-    
+
 `;
 
 const Mask = styled.span`
@@ -136,10 +138,11 @@ const Mask = styled.span`
     height: 50%;
     overflow: hidden;
     //outline: 1px solid red;
-    color: ${Theme.colors.font};
-    
+    color: rgba(255, 255, 255);
+
     & + & {
         top: 50%;
+
         span {
             display: inline-block;
             transform: translateY(-50%);
@@ -149,7 +152,7 @@ const Mask = styled.span`
 
 const ListItem = styled.li`
     position: relative;
-    
+
     &::before {
         content: '';
         display: inline-block;
@@ -162,16 +165,16 @@ const ListItem = styled.li`
         z-index: 1;
         transform: scale(0);
     }
-    
+
     &:hover {
         &::before {
             transform: scale(1);
         }
-        
+
         ${Mask} {
             transform: skewX(12deg) translateX(5px);
             color: #000;
-            
+
             & + ${Mask} {
                 transform: skewX(12deg) translateX(-5px);
             }

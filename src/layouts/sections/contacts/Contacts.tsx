@@ -40,7 +40,9 @@ const ContactsWrapper = styled.div`
     
     @media ${Theme.media.tablet860} {
         justify-content: center;
-        
+        svg {
+            display: none;
+        }
     }
 `;
 

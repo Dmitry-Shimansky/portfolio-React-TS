@@ -24,6 +24,10 @@ const LogoWrapper = styled.div`
     @media ${Theme.media.desktop1100} {
         display: none;
     }
+
+    @media ${Theme.media.mobile} {
+        display: flex;
+    }
 `;
 
 const FirstName = styled.span<NameLogoType>`

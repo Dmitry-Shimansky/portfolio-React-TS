@@ -52,23 +52,30 @@ const TitleContainer = styled.div`
 
 const Greeting = styled.span`
     ${font({family: "'Poppins', sans-serif", weight: 400, Fmax: 48, Fmin: 20})}
+    
+    color: ${Theme.colors.mainTitle};
 `;
 
 const Name = styled.h2`
     ${font({family: "'Poppins', sans-serif", weight: 700, Fmax: 58, Fmin: 36})}
+    color: ${Theme.colors.mainTitle};
     margin-bottom: 15px;
     
     span {
         position: relative;
         z-index: 0;
         white-space: nowrap;
+
+        background-image: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
+        color: transparent;
+        -webkit-background-clip: text;
         
         &::before {
             content: "";
             display: inline-block;
             width: 100%;
             height: 20px;
-            background-color: rgb(251, 168, 32);
+            background-color: ${Theme.colors.accent};
             
             position: absolute;
             bottom: 10px;
@@ -83,6 +90,8 @@ const Name = styled.h2`
 
 const JobTitle = styled.h3`
     ${font({family: "'Poppins', sans-serif", weight: 400, Fmax: 27, Fmin: 20})}
+
+    color: ${Theme.colors.mainTitle};
 
     @media ${Theme.media.tablet} {
     margin-bottom: 20px;
