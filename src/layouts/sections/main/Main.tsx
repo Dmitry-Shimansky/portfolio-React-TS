@@ -4,6 +4,7 @@ import photo from '../../../assets/images/myphoto.png';
 import {Container} from "../../../components/Container";
 import {Theme} from "../../../styles/Theme";
 import {font} from "../../../styles/Common";
+import Typewriter from 'typewriter-effect';
 
 export const Main = () => {
     return (
@@ -15,7 +16,18 @@ export const Main = () => {
                         <Name>
                             My name is <br/> <span>Dmitry Shimansky</span>
                         </Name>
-                        <JobTitle>I am a Web Developer</JobTitle>
+                        {/*<JobTitle>I am a Web Developer</JobTitle>*/}
+                        <JobTitle>
+                            <p>I am a Web Developer</p>
+                            <Typewriter
+                                options={{
+                                    strings: ['I am a Web Developer', 'Automation Engineer'],
+                                    autoStart: true,
+                                    loop: true,
+                                    deleteSpeed: 5,
+                                }}
+                            />
+                        </JobTitle>
                     </TitleContainer>
                     <PhotoWrapper>
                         <Photo src={photo} alt="photo"/>
@@ -90,6 +102,10 @@ const Name = styled.h2`
 
 const JobTitle = styled.h3`
     ${font({family: "'Poppins', sans-serif", weight: 400, Fmax: 27, Fmin: 20})}
+    
+    p {
+        display: none;
+    }
 
     color: ${Theme.colors.mainTitle};
 
