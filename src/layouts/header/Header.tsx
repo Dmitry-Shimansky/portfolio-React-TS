@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-import {headerMenuItems} from "../../components/data"
 import {Container} from "../../components/Container";
 import {HeaderMenu} from "./menu/HeaderMenu";
 import {NameLogo} from "../../components/logo/NameLogo";
@@ -14,8 +13,8 @@ export const Header = () => {
                 <Container>
                     <HeaderWrapper>
                         <NameLogo />
-                        <HeaderMenu headerItems={headerMenuItems}/>
-                        <MobileMenu headerItems={headerMenuItems}/>
+                        <HeaderMenu />
+                        <MobileMenu />
                     </HeaderWrapper>
                 </Container>
             </StyledHeader>

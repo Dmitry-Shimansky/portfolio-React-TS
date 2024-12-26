@@ -31,7 +31,7 @@ export const Testimony = () => {
 };
 
 const StyledTestimony = styled.section`
-
+    position: relative;
 `;
 
 const SliderWrapper = styled.div`

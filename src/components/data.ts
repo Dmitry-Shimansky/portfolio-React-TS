@@ -102,7 +102,27 @@ export const worksItems: Works[] = [
     }
 ];
 
-export const headerMenuItems: string[] = ["Home", "About", "Tech Stack", "Projects", "Contacts"];
+export const headerMenuItems: Array<{title: string, href: string}> = [
+    {
+        title: "Home",
+        href: "home"
+    },
+    {
+        title: "About",
+        href: "about"
+    },
+    {
+        title: "Tech Stack",
+        href: "techstack"
+    },
+    {
+        title: "Projects",
+        href: "projects"
+    },
+    {
+        title: "Contacts",
+        href: "contacts"
+    }];
 
 export const headerSocialIcons: string[] = ["github", "twitter", "linkedIn"];
 

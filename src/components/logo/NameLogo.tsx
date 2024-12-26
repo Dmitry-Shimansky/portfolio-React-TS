@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {Theme} from "../../styles/Theme";
+import {animateScroll as scroll} from "react-scroll";
 
 type NameLogoType = {
     fontSize?: string
@@ -8,7 +9,7 @@ type NameLogoType = {
 
 export const NameLogo = (props: NameLogoType) => {
     return (
-        <LogoWrapper>
+        <LogoWrapper onClick={() =>{scroll.scrollToTop()}}>
             <FirstName fontSize={props.fontSize}>Dmitry</FirstName>
             <LastName fontSize={props.fontSize}>Shimansky</LastName>
         </LogoWrapper>
@@ -20,6 +21,7 @@ const LogoWrapper = styled.div`
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 
     @media ${Theme.media.desktop1100} {
         display: none;

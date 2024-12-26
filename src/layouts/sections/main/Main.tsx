@@ -5,10 +5,11 @@ import {Container} from "../../../components/Container";
 import {Theme} from "../../../styles/Theme";
 import {font} from "../../../styles/Common";
 import Typewriter from 'typewriter-effect';
+import Tilt from 'react-parallax-tilt';
 
 export const Main = () => {
     return (
-        <StyledMain>
+        <StyledMain id={"home"}>
             <Container>
                 <MainWrapper>
                     <TitleContainer>
@@ -16,12 +17,11 @@ export const Main = () => {
                         <Name>
                             My name is <br/> <span>Dmitry Shimansky</span>
                         </Name>
-                        {/*<JobTitle>I am a Web Developer</JobTitle>*/}
                         <JobTitle>
                             <p>I am a Web Developer</p>
                             <Typewriter
                                 options={{
-                                    strings: ['I am a Web Developer', 'Automation Engineer'],
+                                    strings: ['I am a Web Developer', 'No no no', 'A Front-End Developer'],
                                     autoStart: true,
                                     loop: true,
                                     deleteSpeed: 5,
@@ -29,9 +29,17 @@ export const Main = () => {
                             />
                         </JobTitle>
                     </TitleContainer>
-                    <PhotoWrapper>
-                        <Photo src={photo} alt="photo"/>
-                    </PhotoWrapper>
+                    <Tilt
+                        glareEnable={true}
+                        glareMaxOpacity={0.8}
+                        glareColor="#ffffff"
+                        glarePosition="bottom"
+                        glareBorderRadius="20px"
+                    >
+                        <PhotoWrapper>
+                            <Photo src={photo} alt="photo"/>
+                        </PhotoWrapper>
+                    </Tilt>
                 </MainWrapper>
             </Container>
         </StyledMain>
