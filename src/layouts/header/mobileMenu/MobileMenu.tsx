@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import styled, {css} from "styled-components";
 import {v4 as uuid} from 'uuid';
-import {headerSocialIcons} from "../../../components/data"
+import {headerSocialIcons, headerMenuItems} from "../../../components/data"
 import {MobileSocialIcons} from "./MobileSocialIcons";
 import {Theme} from "../../../styles/Theme";
+import {Link} from "react-scroll"
 
-export const MobileMenu = (props: { headerItems: string[] }) => {
+export const MobileMenu = () => {
 
     const [menuIsOpen, setMenuIsOpen] = useState(false)
     const onBurgerBtnClick = () => {setMenuIsOpen(!menuIsOpen)}
@@ -17,22 +18,27 @@ export const MobileMenu = (props: { headerItems: string[] }) => {
             </BurgerButton>
             <MobileMenuPopup isOpen={menuIsOpen} onClick={()=>{setMenuIsOpen(false)}}>
                 <List>
-                    {props.headerItems.map((item) => {
+                    {headerMenuItems.map((item) => {
                         return (
                             <ListItem key={uuid()}>
-                                <Link href="#">
-                                    {item}
+                                <NavLink
+                                    to={item.href}
+                                    smooth={true}
+                                    activeClass="active"
+                                    spy={true}
+                                >
+                                    {item.title}
                                     <Mask>
                                         <span>
-                                            {item}
+                                            {item.title}
                                         </span>
                                     </Mask>
                                     <Mask>
                                         <span>
-                                            {item}
+                                            {item.title}
                                         </span>
                                     </Mask>
-                                </Link>
+                                </NavLink>
                             </ListItem>
                         )
                     })}
@@ -108,6 +114,16 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
     }
 `;
 
+const List = styled.ul`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 100%;
+    transition: 1s ease-in-out;
+`;
+
 const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     position: fixed;
     top: 0;
@@ -116,23 +132,19 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     bottom: 0;
     z-index: 999;
     background-color: rgba(31, 31, 32, 0.9);
-    display: none;
-
-    ${props => props.isOpen && css<{ isOpen: boolean }>`
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    `}
-`;
-
-const List = styled.ul`
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 67px;
-    height: 100%;
+    transform: translateX(100%);
+    transition: ${Theme.animations.transition};
 
+    ${props => props.isOpen && css<{ isOpen: boolean }>`
+        transform: translateX(0);
+        
+        & ${List} {
+            gap: 70px;
+        }
+    `}
 `;
 
 const Mask = styled.span`
@@ -187,7 +199,7 @@ const ListItem = styled.li`
     }
 `;
 
-const Link = styled.a`
+const NavLink = styled(Link)`
     color: transparent;
     font-family: DM Sans, sans-serif;
     font-size: 20px;

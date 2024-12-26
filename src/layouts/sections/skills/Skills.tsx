@@ -6,16 +6,23 @@ import {Skill} from "./skill/Skill";
 import {skillsArray} from "../../../components/data"
 import {v4 as uuid} from 'uuid';
 import {Container} from "../../../components/Container";
+import { AttentionSeeker } from "react-awesome-reveal";
 
 export const Skills = () => {
     return (
-        <SectionSkills>
+        <SectionSkills id={"techstack"}>
             <Container>
                 <SectionTitle>My Tech Stack</SectionTitle>
                 <SectionDescription>
                     Technologies I’ve been working with recently
                 </SectionDescription>
                 <SkillsWrapper>
+                    <AttentionSeeker
+                        effect={'tada'}
+                        cascade
+                        damping={0.1}
+                        triggerOnce
+                    >
                     {skillsArray.map((item, index) => {
                         return <Skill key={uuid()}
                                       iconId={item.icon}
@@ -23,6 +30,7 @@ export const Skills = () => {
                                       text={item.text}
                                 />
                     })}
+                    </AttentionSeeker>
                 </SkillsWrapper>
             </Container>
         </SectionSkills>
@@ -30,7 +38,7 @@ export const Skills = () => {
 };
 
 const SectionSkills = styled.section`
-    
+    position: relative;
 `;
 
 const SkillsWrapper = styled.div`

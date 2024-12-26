@@ -3,7 +3,6 @@ import styled from "styled-components";
 import {Icon} from "../../../../components/icon/Icon";
 import {Theme} from "../../../../styles/Theme";
 import {StyledButton} from "../../../../components/Button";
-import {font} from "../../../../styles/Common";
 
 type WorkCardPropsType = {
     title: string
@@ -63,8 +62,9 @@ const ImageWrapper = styled.div`
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -30%);
         text-transform: uppercase;
+        transition: ${Theme.animations.transition};
     }
 
     &::before {
@@ -78,8 +78,10 @@ const ImageWrapper = styled.div`
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         background-color: rgb(0, 0, 0, 0.3);
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(2px);
         opacity: 0;
+        
+        transition: ${Theme.animations.transition};
     }
     
     &:hover {
@@ -90,6 +92,7 @@ const ImageWrapper = styled.div`
         
         ${StyledButton} {
             opacity: 1;
+            transform: translate(-50%, -50%);
         }
     }
     
@@ -189,5 +192,8 @@ const Link = styled.a`
         left: 0;
         right: 0;
         z-index: -1;
+        height: 0;
+        
+        transition: ${Theme.animations.transition};
     }
 `;

@@ -6,10 +6,12 @@ import {Works} from "./layouts/sections/works/Works";
 import {Testimony} from "./layouts/sections/testimony/Testimony";
 import {Contacts} from "./layouts/sections/contacts/Contacts";
 import {Footer} from "./layouts/footer/Footer";
+import {Particle} from "./components/particle/Particle";
 
 function App() {
     return (
         <div className="App">
+            <Particle />
             <Header />
             <Main />
             <Skills />

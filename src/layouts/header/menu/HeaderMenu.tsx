@@ -1,30 +1,36 @@
 import React from 'react';
 import styled from "styled-components";
 import {v4 as uuid} from 'uuid';
-import {headerSocialIcons} from "../../../components/data"
+import {headerSocialIcons, headerMenuItems} from "../../../components/data"
 import {HeaderSocialIcons} from "./HeaderSocialIcons";
 import {Theme} from "../../../styles/Theme";
+import {Link} from "react-scroll"
 
-export const HeaderMenu = (props: {headerItems: string[]}) => {
+export const HeaderMenu = () => {
     return (
         <StyledNav>
             <List>
-                {props.headerItems.map((item) => {
+                {headerMenuItems.map((item) => {
                     return (
                         <ListItem key={uuid()}>
-                            <Link href="#">
-                                {item}
+                            <NavLink
+                                to={item.href}
+                                smooth={true}
+                                activeClass="active"
+                                spy={true}
+                            >
+                                {item.title}
                                 <Mask>
                                     <span>
-                                        {item}
+                                        {item.title}
                                     </span>
                                 </Mask>
                                 <Mask>
                                     <span>
-                                        {item}
+                                        {item.title}
                                     </span>
                                 </Mask>
-                            </Link>
+                            </NavLink>
                         </ListItem>
                     )
                 })}
@@ -74,6 +80,7 @@ const Mask = styled.span`
     overflow: hidden;
     //outline: 1px solid red;
     color: ${Theme.colors.font};
+    transition: ${Theme.animations.transition};
     
     & + & {
         top: 50%;
@@ -86,41 +93,44 @@ const Mask = styled.span`
 
 const ListItem = styled.li`
     position: relative;
-    
-    &::before {
-        content: '';
-        display: inline-block;
-        height: 2px;
-        background-color: #fff;
-        position: absolute;
-        top: 50%;
-        left: -10px;
-        right: -10px;
-        z-index: 1;
-        transform: scale(0);
-    }
-    
-    &:hover {
-        &::before {
-            transform: scale(1);
-        }
-        
-        ${Mask} {
-            transform: skewX(12deg) translateX(5px);
-            color: #000;
-            
-            & + ${Mask} {
-                transform: skewX(12deg) translateX(-5px);
-            }
-        }
-    }
 `;
 
-const Link = styled.a`
+const NavLink = styled(Link)`
     color: transparent;
     font-family: DM Sans, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        height: 2px;
+        background-color: #000;
+        
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        right: -10px;
+        z-index: 1;
+        
+        transform: scale(0);
+        transition: ${Theme.animations.transition};
+    }
+
+    &:hover, &.active {
+        &::before {
+            transform: scale(1);
+        }
+
+        ${Mask} {
+            transform: skewX(12deg) translateX(5px);
+            color: #000;
+
+            & + ${Mask} {
+                transform: skewX(12deg) translateX(-5px);
+            }
+        }
+    }
 `;
