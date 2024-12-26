@@ -91,7 +91,7 @@ const ListItem = styled.li`
         content: '';
         display: inline-block;
         height: 2px;
-        background-color: rgb(251, 168, 32);
+        background-color: #fff;
         position: absolute;
         top: 50%;
         left: -10px;

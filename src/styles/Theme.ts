@@ -6,6 +6,7 @@ export const Theme = {
         projectCardTitle: "rgb(0, 0, 0)",
         accent: "rgb(251, 168, 32)",
         placeholder: "rgb(0, 0, 0 0.5)",
+        mainTitle: "rgb(66, 68, 110)",
 
         font: "rgb(102, 102, 102)",
     },
