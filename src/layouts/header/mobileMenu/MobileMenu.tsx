@@ -1,17 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled, {css} from "styled-components";
 import {v4 as uuid} from 'uuid';
 import {headerSocialIcons} from "../../../components/data"
-import {HeaderSocialIcons} from "./HeaderSocialIcons";
+import {MobileSocialIcons} from "./MobileSocialIcons";
 import {Theme} from "../../../styles/Theme";
 
 export const MobileMenu = (props: { headerItems: string[] }) => {
+
+    const [menuIsOpen, setMenuIsOpen] = useState(false)
+    const onBurgerBtnClick = () => {setMenuIsOpen(!menuIsOpen)}
+
     return (
         <StyledMobileNav>
-            <BurgerButton isOpen={true}>
+            <BurgerButton isOpen={menuIsOpen} onClick={onBurgerBtnClick}>
                 <span></span>
             </BurgerButton>
-            <MobileMenuPopup isOpen={true}>
+            <MobileMenuPopup isOpen={menuIsOpen} onClick={()=>{setMenuIsOpen(false)}}>
                 <List>
                     {props.headerItems.map((item) => {
                         return (
@@ -33,7 +37,7 @@ export const MobileMenu = (props: { headerItems: string[] }) => {
                         )
                     })}
                 </List>
-                <HeaderSocialIcons iconItems={headerSocialIcons}/>
+                <MobileSocialIcons iconItems={headerSocialIcons}/>
             </MobileMenuPopup>
         </StyledMobileNav>
     );
@@ -53,6 +57,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
     right: -100px;
     width: 200px;
     height: 200px;
+    z-index: 999999;
 
     span {
         display: block;
@@ -60,9 +65,9 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
         height: 2px;
         background-color: ${Theme.colors.mainTitle};
         position: absolute;
-        left: 53px;
+        left: 49px;
         bottom: 70px;
-        z-index: 999999;
+        //z-index: 999999;
 
         ${props => props.isOpen && css<{ isOpen: boolean }>`
             background-color: transparent;
@@ -75,7 +80,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
             background-color: ${Theme.colors.mainTitle};
             position: absolute;
             transform: translateY(-10px);
-            z-index: 999999;
+            //z-index: 999999;
 
             ${props => props.isOpen && css<{ isOpen: boolean }>`
                 transform: rotate(-45deg) translateY(0);
@@ -92,7 +97,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
             position: absolute;
             right: 0;
             transform: translateY(10px);
-            z-index: 999999;
+            //z-index: 999999;
 
             ${props => props.isOpen && css<{ isOpen: boolean }>`
                 transform: rotate(45deg) translateY(0);

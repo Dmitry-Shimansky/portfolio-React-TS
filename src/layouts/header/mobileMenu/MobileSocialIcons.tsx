@@ -4,7 +4,7 @@ import {v4 as uuid} from 'uuid';
 import {Icon} from "../../../components/icon/Icon";
 import {Theme} from "../../../styles/Theme";
 
-export const HeaderSocialIcons = (props: {iconItems: string[]}) => {
+export const MobileSocialIcons = (props: {iconItems: string[]}) => {
     return (
         <StyledIcons>
                 {props.iconItems.map((item) => {

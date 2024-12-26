@@ -23,14 +23,6 @@ export const Testimony = () => {
                     </FlexWrapper>
                     <SliderWrapper>
                         <Slider />
-                        <ButtonWrapper>
-                            <ButtonLeft>
-                                <Icon iconId={'arrow-icon-left'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
-                            </ButtonLeft>
-                            <ButtonRight>
-                                <Icon iconId={'arrow-icon-right'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
-                            </ButtonRight>
-                        </ButtonWrapper>
                     </SliderWrapper>
                 </ContentWrapper>
             </Container>
@@ -43,29 +35,8 @@ const StyledTestimony = styled.section`
 `;
 
 const SliderWrapper = styled.div`
-
-`;
-
-const ButtonWrapper = styled.div`
-    width: 206px;
-    height: 87px;
-    display: flex;
-    border-radius: 10px;
-    background-color: rgb(252, 192, 40);
-`;
-
-const ButtonLeft = styled.button`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-`;
-
-const ButtonRight = styled.button`
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
+    max-width: 770px;
+    width: 100%;
 `;
 
 const ContentWrapper = styled.div`
@@ -78,21 +49,12 @@ const ContentWrapper = styled.div`
         right: 167px;
     }
     
-    & ${ButtonWrapper} {
-        position: absolute;
-        left: -120px;
-        top: 100px
-    }
-    
     @media ${Theme.media.desktop1100} {
         ${SliderWrapper} {
             position: absolute;
             right: 50%;
             transform: translateX(50%);
             width: 80%;
-        }
-        ${ButtonWrapper} {
-            display: none;
         }
     }
 `;
