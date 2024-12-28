@@ -31,21 +31,22 @@
     width: 100%;
 }
 
-.alice-carousel__stage-item {
-    max-width: 508px;
-    width: 100%;
-}
-
 @media screen and (max-width: 1000px) {
     .alice-carousel__prev-btn {
+        display: none;
         left: 50%;
         bottom: 0;
         transform: translate(-100px, 108px);
     }
 
     .alice-carousel__next-btn {
+        display: none;
         left: 50%;
         bottom: 0;
         transform: translate(0px, 108px);
+    }
+
+    .alice-carousel {
+        width: 80%;
     }
 }

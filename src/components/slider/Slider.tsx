@@ -1,10 +1,10 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import styled from "styled-components";
 import megan from "../../assets/images/Megan.png"
 import {Icon} from "../icon/Icon";
 import "../../styles/slider.css"
+import {S} from "./Slider_Styles"
 
 type SlidePropsType = {
     text: string,
@@ -20,12 +20,12 @@ const dataObject: SlidePropsType = {
 
 const Slide = (props: SlidePropsType) => {
     return (
-        <SlideWrapper>
-            <Image src={megan} alt={"Megan.png"}/>
-            <Text>{props.text}</Text>
-            <Name>{props.userName}</Name>
-            <JobTitle>{props.jobTitle}</JobTitle>
-        </SlideWrapper>
+        <S.SlideWrapper>
+            <S.Image src={megan} alt={"Megan.png"}/>
+            <S.Text>{props.text}</S.Text>
+            <S.Name>{props.userName}</S.Name>
+            <S.JobTitle>{props.jobTitle}</S.JobTitle>
+        </S.SlideWrapper>
     )
 };
 
@@ -37,20 +37,20 @@ const items = [
 
 export const Slider = () => {
     return (
-        <StyledSlider>
-            <IconWrapper>
+        <S.StyledSlider className={'slider'}>
+            <S.IconWrapper>
                 <Icon iconId={'left-quotes'} width={'40px'} height={'31px'}/>
-            </IconWrapper>
+            </S.IconWrapper>
 
             <AliceCarousel
                 mouseTracking
                 items={items}
                 disableDotsControls
-                // renderPrevButton={() => {
-                //     return (
-                //         <Icon iconId={'arrow-icon-left'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
-                //     )
-                // }}
+                renderPrevButton={() => {
+                    return (
+                        <Icon iconId={'arrow-icon-left'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
+                    )
+                }}
                 renderNextButton={() => {
                     return (
                         <Icon iconId={'arrow-icon-right'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
@@ -58,10 +58,10 @@ export const Slider = () => {
                 }}
             />
 
-            <IconWrapper>
+            <S.IconWrapper>
                 <Icon iconId={'right-quotes'} width={'40px'} height={'31px'}/>
-            </IconWrapper>
-        </StyledSlider>
+            </S.IconWrapper>
+        </S.StyledSlider>
     );
 };
 
@@ -95,98 +95,3 @@ export const Slider = () => {
 //     );
 // };
 
-const IconWrapper = styled.div`
-    width: 130px;
-    height: 100%;
-    padding: 17px 0;
-    display: flex;
-    justify-content: center;
-`;
-
-const StyledSlider = styled.div`
-    display: flex;
-    max-width: 770px;
-    width: 100%;
-    padding-bottom: 8px;
-    border-radius: 19px;
-    box-shadow: 0 4px 19px 0 rgba(19, 23, 61, 0.1);
-    background-color: rgb(255, 255, 255);
-    min-height: 209px;
-    height: 100%;
-
-    ${IconWrapper}:last-of-type {
-        align-items: flex-end;
-    };
-`;
-
-const SlideWrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    max-width: 508px;
-    width: 100%;
-    //padding-top: 65px;
-
-    //position: relative;
-`;
-
-const Image = styled.img`
-    width: 97px;
-    height: 97px;
-    object-fit: cover;
-    margin-bottom: 65px;
-
-    //position: absolute;
-    //top: -50px;
-`;
-
-const Text = styled.p`
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0;
-    text-align: center;
-    margin-bottom: 32px;
-`;
-
-const Name = styled.span`
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 23px;
-    letter-spacing: 0;
-    text-align: left;
-`;
-
-const JobTitle = styled.p`
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0;
-    text-align: center;
-    text-transform: uppercase;
-`;
-
-const ButtonWrapper = styled.div`
-    width: 206px;
-    height: 87px;
-    display: flex;
-    border-radius: 10px;
-    background-color: rgb(252, 192, 40);
-`;
-
-const ButtonLeft = styled.button`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-`;
-
-const ButtonRight = styled.button`
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-`;

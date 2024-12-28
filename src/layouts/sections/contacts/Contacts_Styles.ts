@@ -16,6 +16,10 @@ const ContactsWrapper = styled.div`
             display: none;
         }
     }
+    
+    svg {
+        position: relative;
+    }
 `;
 
 const StyledForm = styled.form`
@@ -37,6 +41,7 @@ const StyledForm = styled.form`
 `;
 
 const Field = styled.input`
+    position: relative;
     width: 100%;
     border: 2px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
