@@ -65,33 +65,3 @@ export const Slider = () => {
     );
 };
 
-
-
-// import React from 'react';
-// import styled from "styled-components";
-// import megan from "../../assets/images/Megan.png"
-// import {Icon} from "../icon/Icon";
-//
-// export const Slider = () => {
-//     return (
-//         <StyledSlider>
-//             <IconWrapper>
-//                 <Icon iconId={'left-quotes'} width={'40px'} height={'31px'} />
-//             </IconWrapper>
-//
-//                 <SlideWrapper>
-//                     <Image src={megan} alt={""}/>
-//                     <Text>
-//                         is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-//                     </Text>
-//                     <Name>Megan</Name>
-//                     <JobTitle>founder and ceo of warner brothers</JobTitle>
-//                 </SlideWrapper>
-//
-//             <IconWrapper>
-//                 <Icon iconId={'right-quotes'} width={'40px'} height={'31px'} />
-//             </IconWrapper>
-//         </StyledSlider>
-//     );
-// };
-

@@ -10,6 +10,7 @@
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     background-color: rgb(252, 192, 40);
+    cursor: pointer;
 }
 
 .alice-carousel__next-btn {
@@ -24,11 +25,13 @@
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     background-color: rgb(252, 192, 40);
+    cursor: pointer;
 }
 
 .alice-carousel {
     max-width: 508px;
     width: 100%;
+    cursor: grab;
 }
 
 @media screen and (max-width: 1000px) {
