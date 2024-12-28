@@ -126,7 +126,7 @@ const NavLink = styled(Link)`
 
         ${Mask} {
             transform: skewX(12deg) translateX(5px);
-            color: #000;
+            color: ${Theme.colors.accent};
 
             & + ${Mask} {
                 transform: skewX(12deg) translateX(-5px);

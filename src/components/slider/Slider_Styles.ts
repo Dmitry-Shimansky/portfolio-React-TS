@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Theme} from "../../styles/Theme";
 
 const IconWrapper = styled.div`
     width: 130px;
@@ -6,6 +7,10 @@ const IconWrapper = styled.div`
     padding: 17px 0;
     display: flex;
     justify-content: center;
+    
+    @media ${Theme.media.mobile} {
+        display: none;
+    }
 `;
 
 const StyledSlider = styled.div`
