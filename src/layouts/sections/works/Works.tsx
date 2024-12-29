@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from "styled-components";
 import {SectionTitle} from "../../../components/SectionTitle";
 import {SectionDescription} from "../../../components/SectionDescription";
 import {WorkCard} from "./work/WorkCard";
@@ -12,16 +11,17 @@ import image5 from "../../../assets/images/image-1.png";
 import image6 from "../../../assets/images/image-6.png";
 import {worksItems} from "../../../components/data"
 import {Container} from "../../../components/Container";
+import {S} from "./Works_Styles"
 
 const imagesArray: any[] = [image1, image2, image3, image4, image5, image6];
 
 export const Works = () => {
     return (
-        <StyledWorks id={"projects"}>
+        <S.StyledWorks id={"projects"}>
             <Container>
                 <SectionTitle>Projects</SectionTitle>
                 <SectionDescription>Things I’ve built so far</SectionDescription>
-                <WorksWrapper>
+                <S.WorksWrapper>
                     {worksItems.map((item, index) => {
                         return <WorkCard
                             key={uuid()}
@@ -31,21 +31,8 @@ export const Works = () => {
                             description={item.description}
                         />
                     })}
-                </WorksWrapper>
+                </S.WorksWrapper>
             </Container>
-        </StyledWorks>
+        </S.StyledWorks>
     );
 };
-
-const StyledWorks = styled.section`
-    position: relative;
-`;
-
-const WorksWrapper = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 62px;
-`;
