@@ -26,6 +26,7 @@ export const MobileMenu = () => {
                                     smooth={true}
                                     activeClass="active"
                                     spy={true}
+                                    onClick={()=>{setMenuIsOpen(false)}}
                                 >
                                     {item.title}
                                     <Mask>
@@ -169,34 +170,6 @@ const Mask = styled.span`
 
 const ListItem = styled.li`
     position: relative;
-
-    &::before {
-        content: '';
-        display: inline-block;
-        height: 2px;
-        background-color: rgb(251, 168, 32);
-        position: absolute;
-        top: 50%;
-        left: -10px;
-        right: -10px;
-        z-index: 1;
-        transform: scale(0);
-    }
-
-    &:hover {
-        &::before {
-            transform: scale(1);
-        }
-
-        ${Mask} {
-            transform: skewX(12deg) translateX(5px);
-            color: #000;
-
-            & + ${Mask} {
-                transform: skewX(12deg) translateX(-5px);
-            }
-        }
-    }
 `;
 
 const NavLink = styled(Link)`

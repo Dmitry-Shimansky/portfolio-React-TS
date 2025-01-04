@@ -124,6 +124,6 @@ export const headerMenuItems: Array<{title: string, href: string}> = [
         href: "contacts"
     }];
 
-export const headerSocialIcons: string[] = ["github", "twitter", "linkedIn"];
+export const headerSocialIcons: string[] = ["github", "linkedIn", "instagram-icon"];
 
 export const footerSocialIcons: string[] = ['facebook-dark', 'instagram-dark', 'twitter-dark', 'linkedin-dark'];
