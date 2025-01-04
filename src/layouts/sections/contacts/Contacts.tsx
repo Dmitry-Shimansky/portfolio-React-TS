@@ -4,11 +4,12 @@ import {SectionDescription} from "../../../components/SectionDescription";
 import {StyledButton} from "../../../components/Button";
 import {Icon} from "../../../components/icon/Icon";
 import {Container} from "../../../components/Container";
-import emailjs from '@emailjs/browser';
-import {toast} from "react-toastify";
 import {S} from "./Contacts_Styles";
+import emailjs from "@emailjs/browser";
+import {toast} from "react-toastify";
 
 export const Contacts = () => {
+
     const form = useRef<ElementRef<'form'>>(null);
 
     const sendEmail = (e: any) => {
