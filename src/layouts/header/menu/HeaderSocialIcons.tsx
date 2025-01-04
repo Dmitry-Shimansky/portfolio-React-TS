@@ -11,7 +11,7 @@ export const HeaderSocialIcons = (props: {iconItems: string[]}) => {
                     return (
                         <LstItem key={uuid()}>
                             <Link href="#">
-                                <Icon iconId={item} width={'30px'} height={'30px'} />
+                                <Icon iconId={item} width={'30px'} height={'30px'} fill={'#666666'}/>
                             </Link>
                         </LstItem>
                     )
@@ -37,5 +37,18 @@ const LstItem = styled.li`
 `;
 
 const Link = styled.a`
-    
+    &:hover #github {
+        fill: rgb(0, 0, 0);
+        transition: ${Theme.animations.transition};
+    }
+
+    &:hover #linkedIn {
+        fill: rgb(0, 119, 181);
+        transition: ${Theme.animations.transition};
+    }
+
+    &:hover #instagram-icon {
+        fill: #C837AB;
+        transition: ${Theme.animations.transition};
+    }
 `;
