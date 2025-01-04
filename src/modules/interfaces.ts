@@ -10,3 +10,7 @@ export interface Works {
     techstack: string
     description: string
 }
+
+export type NameLogoType = {
+    fontSize?: string
+}

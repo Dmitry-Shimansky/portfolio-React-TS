@@ -51,7 +51,7 @@ const Name = styled.h2`
             display: inline-block;
             width: 100%;
             height: 20px;
-            background-color: #FFF;
+            background-color: transparent;
             
             position: absolute;
             bottom: 10px;

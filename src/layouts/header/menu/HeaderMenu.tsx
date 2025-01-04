@@ -107,7 +107,7 @@ const NavLink = styled(Link)`
         content: '';
         display: inline-block;
         height: 2px;
-        background-color: #000;
+        background: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
         
         position: absolute;
         top: 50%;
@@ -119,7 +119,13 @@ const NavLink = styled(Link)`
         transition: ${Theme.animations.transition};
     }
 
-    &:hover, &.active {
+    &:hover {
+        ${Mask} {
+            color: ${Theme.colors.accent};
+        }
+    }
+
+    &.active {
         &::before {
             transform: scale(1);
         }
