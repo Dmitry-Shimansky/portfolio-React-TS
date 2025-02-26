@@ -106,8 +106,9 @@ const NavLink = styled(Link)`
     &::before {
         content: '';
         display: inline-block;
-        height: 2px;
-        background: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
+        height: 1px;
+        //background: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
+        background: ${Theme.colors.sectionTitle};
         
         position: absolute;
         top: 50%;
