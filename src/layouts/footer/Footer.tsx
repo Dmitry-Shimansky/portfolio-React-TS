@@ -35,7 +35,7 @@ export const Footer = () => {
                 </S.FooterTopWrapper>
                 <S.FooterBottomWrapper>
                     <S.Copyright>
-                        © 2024 All rights reserved.
+                        © 2025 All rights reserved.
                     </S.Copyright>
                     <S.MadeBy>
                         Designed and made by Dmitry Shimansky with Love & Coffee
