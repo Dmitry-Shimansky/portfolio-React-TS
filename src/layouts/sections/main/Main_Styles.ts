@@ -3,8 +3,8 @@ import {Theme} from "../../../styles/Theme";
 import {font} from "../../../styles/Common";
 
 const StyledMain = styled.section`
-    display: flex;
-    min-height: 800px;
+    // display: flex;
+    min-height: 100vh;
 `;
 
 const MainWrapper = styled.div`
@@ -12,7 +12,8 @@ const MainWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 100%;
+    margin-bottom: 80px;
+    // height: 100%;
 
     @media ${Theme.media.tablet} {
        flex-direction: column;
