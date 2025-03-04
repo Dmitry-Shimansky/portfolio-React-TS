@@ -4,7 +4,7 @@ import {font} from "../../../styles/Common";
 
 const StyledMain = styled.section`
     display: flex;
-    min-height: 600px;
+    min-height: 800px;
 `;
 
 const MainWrapper = styled.div`

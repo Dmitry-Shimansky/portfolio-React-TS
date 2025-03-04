@@ -4,6 +4,8 @@ import {Container} from "../../../components/Container";
 import Typewriter from 'typewriter-effect';
 import Tilt from 'react-parallax-tilt';
 import {S} from "./Main_Styles"
+import styled from "styled-components";
+import {MainTitle} from "../../../components/MainTitle";
 
 export const Main = () => {
     return (
@@ -39,8 +41,21 @@ export const Main = () => {
                         </S.PhotoWrapper>
                     </Tilt>
                 </S.MainWrapper>
+                <MainTitle>About Me</MainTitle>
+                <AboutMeText>
+                    The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.
+                </AboutMeText>
             </Container>
         </S.StyledMain>
     );
 };
 
+const AboutMeText = styled.p`
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    max-width: 60%;
+`;
