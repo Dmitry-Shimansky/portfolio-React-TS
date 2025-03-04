@@ -11,7 +11,7 @@ export const MobileSocialIcons = (props: {iconItems: string[]}) => {
                     return (
                         <LstItem key={uuid()}>
                             <Link href="#">
-                                <Icon iconId={item} width={'30px'} height={'30px'} />
+                                <Icon iconId={item} width={'40px'} height={'40px'} fill={'#FFF'}/>
                             </Link>
                         </LstItem>
                     )
@@ -24,12 +24,8 @@ const StyledIcons = styled.ul`
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 22px;
-    height: 100%;
-
-    @media ${Theme.media.tablet} {
-        display: none;
-    }
+    gap: 40px;
+    //height: 100%;
 `;
 
 const LstItem = styled.li`
@@ -37,5 +33,8 @@ const LstItem = styled.li`
 `;
 
 const Link = styled.a`
-    
+    #instagram-icon {
+        fill: #FFF;
+        stroke: #666666;
+    }
 `;

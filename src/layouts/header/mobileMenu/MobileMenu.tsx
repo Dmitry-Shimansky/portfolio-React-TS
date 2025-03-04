@@ -121,7 +121,8 @@ const List = styled.ul`
     justify-content: center;
     align-items: center;
     gap: 150px;
-    height: 100%;
+    //height: 100%;
+    margin-bottom: 70px;
     transition: 1s ease-in-out;
 `;
 
@@ -134,6 +135,7 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     z-index: 999;
     background-color: rgba(31, 31, 32, 0.9);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     transform: translateX(100%);
