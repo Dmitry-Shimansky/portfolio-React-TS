@@ -6,6 +6,7 @@ import Tilt from 'react-parallax-tilt';
 import {S} from "./Main_Styles"
 import styled from "styled-components";
 import {MainTitle} from "../../../components/MainTitle";
+import { WorkExperience } from './workexperience/WorkExperince';
 
 export const Main = () => {
     return (
@@ -45,7 +46,8 @@ export const Main = () => {
                 <AboutMeText>
                     The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.
                 </AboutMeText>
-                <MainTitle>Work Experience</MainTitle>
+                {/* <MainTitle>Work Experience</MainTitle> */}
+                <WorkExperience />
                 <MainTitle>Education</MainTitle>
             </Container>
         </S.StyledMain>
