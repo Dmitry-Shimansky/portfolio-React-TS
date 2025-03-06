@@ -17,9 +17,11 @@ export const WorkExperience = () => {
                 <List>
                     <ListItem>
                         <JobTitle>Junior Web Developer</JobTitle>
-                        <Company>Accenture</Company>
-                        <Country>Lithuania</Country>
-                        <WorkingPeriod>Sep 2025 - Dec 2021</WorkingPeriod>
+                        <JobWrapper>
+                            <Company>Accenture</Company>
+                            <Country>Lithuania</Country>
+                            <WorkingPeriod>Sep 2025 - Dec 2021</WorkingPeriod>
+                        </JobWrapper>
                     </ListItem>
                     {/* {headerMenuItems.map((item) => {
                         return (
@@ -61,6 +63,12 @@ const JobTitle = styled.h3`
     line-height: 28px;
     letter-spacing: 1px;
     text-align: left;
+    margin-bottom: 10px;
+`;
+
+const JobWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
 `;
 
 const Company = styled.h4`
@@ -82,6 +90,9 @@ const Country = styled.div`
 `;
 
 const WorkingPeriod = styled.div`
+    padding: 5px 22px;
+    border-radius: 50%;
+    background-color: rgb(215, 255, 224);
     color: rgb(167, 167, 167);
     font-size: 14px;
     font-weight: 500;
