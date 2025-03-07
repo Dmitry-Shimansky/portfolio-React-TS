@@ -37,18 +37,20 @@ const LstItem = styled.li`
 `;
 
 const Link = styled.a`
-    &:hover #github {
-        fill: rgb(0, 0, 0);
+    #github,  
+    #linkedIn, 
+    #instagram-icon  {
         transition: ${Theme.animations.transition};
     }
-
-    &:hover #linkedIn {
-        fill: rgb(0, 119, 181);
-        transition: ${Theme.animations.transition};
-    }
-
-    &:hover #instagram-icon {
-        fill: #C837AB;
-        transition: ${Theme.animations.transition};
+    &:hover {
+        #github {
+            fill: rgb(0, 0, 0);
+        }
+        #linkedIn {
+            fill: rgb(0, 119, 181);
+        }
+        #instagram-icon {
+            fill: #C837AB;
+        }
     }
 `;
