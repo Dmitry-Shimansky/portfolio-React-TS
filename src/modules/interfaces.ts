@@ -14,3 +14,11 @@ export interface Works {
 export type NameLogoType = {
     fontSize?: string
 }
+
+export interface WorkExperiences {
+    jobTitle: string
+    company: string
+    location: string
+    duration: string
+    stack: string[]
+}

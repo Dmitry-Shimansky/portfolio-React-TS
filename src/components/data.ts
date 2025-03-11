@@ -1,4 +1,4 @@
-import {Skill, Works} from "../modules/interfaces";
+import {Skill, WorkExperiences, Works} from "../modules/interfaces";
 
 export const skillsArray: Array<Skill> = [
     {
@@ -123,6 +123,30 @@ export const headerMenuItems: Array<{title: string, href: string}> = [
         title: "Contacts",
         href: "contacts"
     }];
+
+export const workExperienceItems: WorkExperiences[] = [
+    {
+        jobTitle: "Junior Web Developer",
+        company: "Accenture",
+        location: "Lithuania",
+        duration: "Sep 2021 - Dec 2025",
+        stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    },
+    {
+        jobTitle: "Junior Web Developer",
+        company: "Accenture",
+        location: "Lithuania",
+        duration: "Sep 2021 - Dec 2025",
+        stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    },
+    {
+        jobTitle: "Junior Web Developer",
+        company: "Accenture",
+        location: "Lithuania",
+        duration: "Sep 2021 - Dec 2025",
+        stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    }
+];
 
 export const headerSocialIcons: string[] = ["github", "linkedIn", "instagram-icon"];
 
