@@ -5,6 +5,22 @@ const StyledWorkExperience = styled.details`
     position: relative;
     max-width: 60%;
     margin-bottom: 38px;
+    
+    & summary::after {
+        width: 0;
+    }
+    
+    &[open] summary::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 65px;
+        height: 2px;
+        width: 100%;
+        background-image: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
+        
+        transition: width 1s ease-in-out;
+    }
 
     @media ${Theme.media.tablet860} {
         max-width: 100%;
@@ -20,22 +36,33 @@ const WorkExperienceTitle = styled.summary`
     margin-bottom: 10px;
     
     h2 {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
-
-    transition: opacity 1s ease;
 
     &::before {
         position: absolute;
         left: 0;
         content: "";
         width: 400px;
-        height: 50px;
-        background-color: aqua;
+        height: 0;
+        background-color: rgb(0, 255, 255, 0.7);
+        border-radius: 50%;
+        box-shadow: 0 0 20px 10px rgb(0, 255, 255, 0);
+        z-index: 0;
+        
+        transition-property: height, box-shadow;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    svg {
+        z-index: 1;
     }
 
-    &:hover {
-
+    &:hover::before {
+        height: 20px;
+        box-shadow: 0 0 20px 10px rgb(0, 255, 255, 0.7);
+        
     }
 `;
 
@@ -59,8 +86,8 @@ const ListItem = styled.li`
     margin-bottom: 44px;
     
     &:not(:last-child)::after {
-        position: relative;
-        top: 22px;
+        position: absolute;
+        bottom: -22px;
         content: "";
         height: 2px;
         width: 100%;
