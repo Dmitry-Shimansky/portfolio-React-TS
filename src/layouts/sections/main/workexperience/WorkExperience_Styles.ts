@@ -7,19 +7,19 @@ const StyledWorkExperience = styled.details`
     margin-bottom: 38px;
     
     & summary::after {
-        width: 0;
-    }
-    
-    &[open] summary::after {
         position: absolute;
         content: "";
         left: 0;
         top: 65px;
         height: 2px;
-        width: 100%;
+        width: 0;
         background-image: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
-        
-        transition: width 1s ease-in-out;
+
+        transition: width 0.5s linear;
+    }
+    
+    &[open] summary::after {
+        width: 100%;
     }
 
     @media ${Theme.media.tablet860} {
@@ -51,7 +51,7 @@ const WorkExperienceTitle = styled.summary`
         z-index: 0;
         
         transition-property: height, box-shadow;
-        transition-duration: 0.5s;
+        transition-duration: 0.2s;
         transition-timing-function: ease-in-out;
     }
     
@@ -68,7 +68,7 @@ const WorkExperienceTitle = styled.summary`
 
 const WorkExperiencesList = styled.ul`
     position: relative;
-    transition: ${Theme.animations.transition};
+    //transition: ${Theme.animations.transition};
     background-color: rgba(237, 242, 244, 0.7);
     padding: 10px 0 10px 10px;
     //backdrop-filter: blur(10px);
