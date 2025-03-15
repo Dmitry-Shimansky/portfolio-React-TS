@@ -7,16 +7,14 @@ import {S} from "./Courses_Styles"
 
 export const Courses = () => {
 
-    const [detailsIsOpen, setDetailsIsOpen] = useState('arrow_down')
-    const onDetailsBtnClick = () => {setDetailsIsOpen(
-        detailsIsOpen === 'arrow_down' ? 'arrow_up' : 'arrow_down'
-    )};
+    const [detailsIsOpen, setDetailsIsOpen] = useState(true)
+    const onDetailsBtnClick = () => {setDetailsIsOpen(!detailsIsOpen)};
 
     return (
-        <S.StyledEducation>
-            <S.EducationTitle onClick={onDetailsBtnClick}>
+        <S.StyledEducation >
+            <S.EducationTitle onClick={onDetailsBtnClick} isOpen={detailsIsOpen}>
                 <MainTitle>Courses</MainTitle>
-                <Icon iconId={`${detailsIsOpen}`} height={'20px'} width={'20px'} viewBox={'0 0 330 330'} fill={'#000'} />
+                <Icon iconId={'arrow_down'} height={'20px'} width={'20px'} viewBox={'0 0 330 330'} fill={'#000'} />
             </S.EducationTitle>
             <S.EducationsList>
                 {educationItems.map((eduItem) => {

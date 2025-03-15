@@ -27,7 +27,7 @@ const StyledEducation = styled.details`
     }
 `;
 
-const EducationTitle =styled.summary`
+const EducationTitle =styled.summary<{isOpen: boolean}>`
     display: flex;
     align-items: center;
     gap: 10px;
@@ -53,10 +53,25 @@ const EducationTitle =styled.summary`
         transition-property: height, box-shadow;
         transition-duration: 0.2s;
         transition-timing-function: ease-in-out;
+
+        @media ${Theme.media.desktop1100} {
+            width: 195px;
+        }
+        @media ${Theme.media.tablet860} {
+            width: 170px;
+        }
+        @media ${Theme.media.tablet} {
+            width: 160px;
+        }
+        @media ${Theme.media.mobile} {
+            width: 140px;
+        }
     }
 
     svg {
         z-index: 1;
+        transform: rotate(${props => props.isOpen ? '0deg' : '180deg'});
+        transition: transform 0.3s linear;
     }
 
     &:hover::before {

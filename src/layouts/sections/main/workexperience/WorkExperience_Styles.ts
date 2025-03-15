@@ -10,7 +10,7 @@ const StyledWorkExperience = styled.details`
         position: absolute;
         content: "";
         left: 0;
-        top: 65px;
+        top: 58px;
         height: 2px;
         width: 0;
         background-image: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
@@ -27,7 +27,7 @@ const StyledWorkExperience = styled.details`
     }
 `;
 
-const WorkExperienceTitle = styled.summary`
+const WorkExperienceTitle = styled.summary<{isOpen: boolean}>`
     display: flex;
     align-items: center;
     gap: 10px;
@@ -41,9 +41,9 @@ const WorkExperienceTitle = styled.summary`
 
     &::before {
         position: absolute;
-        left: 0;
+        left: 5px;
         content: "";
-        width: 400px;
+        width: 350px;
         height: 0;
         background-color: rgb(0, 255, 255, 0.7);
         border-radius: 50%;
@@ -53,10 +53,25 @@ const WorkExperienceTitle = styled.summary`
         transition-property: height, box-shadow;
         transition-duration: 0.2s;
         transition-timing-function: ease-in-out;
+        
+        @media ${Theme.media.desktop1100} {
+            width: 325px;
+        }
+        @media ${Theme.media.tablet860} {
+            width: 300px;
+        }
+        @media ${Theme.media.tablet} {
+            width: 290px;
+        }
+        @media ${Theme.media.mobile} {
+            width: 270px;
+        }
     }
     
     svg {
         z-index: 1;
+        transform: rotate(${props => props.isOpen ? '0deg' : '180deg'});
+        transition: transform 0.3s linear;
     }
 
     &:hover::before {
@@ -68,12 +83,14 @@ const WorkExperienceTitle = styled.summary`
 
 const WorkExperiencesList = styled.ul`
     position: relative;
-    //transition: ${Theme.animations.transition};
     background-color: rgba(237, 242, 244, 0.7);
     padding: 10px 0 10px 10px;
     //backdrop-filter: blur(10px);
     box-shadow: 0 0 20px 10px rgba(237, 242, 244, 0.7);
     border-radius: 10px;
+    max-height: 235px;
+    overflow-y: scroll;
+    border-bottom: 2px solid rgb(206, 206, 207);
 `;
 
 const ListItem = styled.li`

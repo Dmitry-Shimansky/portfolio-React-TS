@@ -145,6 +145,13 @@ export const workExperienceItems: WorkExperiences[] = [
         location: "Lithuania",
         duration: "Sep 2021 - Dec 2025",
         stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    },
+    {
+        jobTitle: "Junior Web Developer",
+        company: "Accenture",
+        location: "Lithuania",
+        duration: "Sep 2021 - Dec 2025",
+        stack: ["ReactJS", "Type Script", "Git", "Java Script"]
     }
 ];
 

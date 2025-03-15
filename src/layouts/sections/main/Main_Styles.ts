@@ -117,7 +117,7 @@ const AboutMeText = styled.p`
     line-height: 26px;
     letter-spacing: 0;
     text-align: left;
-    max-width: 60%;
+    max-width: 750px;
     margin-bottom: 38px;
 
     position: relative;

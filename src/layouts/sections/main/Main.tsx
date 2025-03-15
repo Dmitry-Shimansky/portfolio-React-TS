@@ -8,7 +8,6 @@ import {MainTitle} from "../../../components/MainTitle";
 import { WorkExperience } from './workexperience/WorkExperince';
 import { Education } from './education/Education';
 import { Courses } from './courses/Courses';
-import {AllCollapseExample} from "./workexperience/Accordion";
 
 export const Main = () => {
     return (

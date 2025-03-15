@@ -7,16 +7,14 @@ import {S} from "./WorkExperience_Styles"
 
 export const WorkExperience = () => {
 
-    const [detailsIsOpen, setDetailsIsOpen] = useState('arrow_down')
-    const onDetailsBtnClick = () => {setDetailsIsOpen(
-       detailsIsOpen === 'arrow_down' ? 'arrow_up' : 'arrow_down'
-    )};
+    const [detailsIsOpen, setDetailsIsOpen] = useState(true)
+    const onDetailsBtnClick = () => {setDetailsIsOpen(!detailsIsOpen)};
 
     return (
         <S.StyledWorkExperience>
-            <S.WorkExperienceTitle onClick={onDetailsBtnClick}>
+            <S.WorkExperienceTitle onClick={onDetailsBtnClick} isOpen={detailsIsOpen}>
                 <MainTitle>Work Experience</MainTitle>
-                <Icon iconId={`${detailsIsOpen}`} height={'20px'} width={'20px'} viewBox={'0 0 330 330'} fill={'#000'} />
+                <Icon iconId={'arrow_down'} height={'20px'} width={'20px'} viewBox={'0 0 330 330'} fill={'#000'} />
             </S.WorkExperienceTitle>
                 <S.WorkExperiencesList>
                    {workExperienceItems.map((workItem) => {
