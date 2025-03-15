@@ -8,11 +8,12 @@ const StyledMain = styled.section`
 `;
 
 const MainWrapper = styled.div`
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     // height: 100%;
 
     @media ${Theme.media.tablet} {
@@ -109,6 +110,19 @@ const Photo = styled.img`
     }
 `;
 
+const AboutMeText = styled.p`
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    max-width: 60%;
+    margin-bottom: 38px;
+
+    position: relative;
+`;
+
 export const S = {
     StyledMain,
     MainWrapper,
@@ -117,5 +131,6 @@ export const S = {
     Name,
     JobTitle,
     PhotoWrapper,
-    Photo
+    Photo,
+    AboutMeText
 }

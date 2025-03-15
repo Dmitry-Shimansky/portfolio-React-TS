@@ -22,3 +22,9 @@ export interface WorkExperiences {
     duration: string
     stack: string[]
 }
+
+export interface Educations {
+    universityTitle: string
+    specialization: string
+    period: string
+}

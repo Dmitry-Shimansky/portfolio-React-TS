@@ -1,4 +1,4 @@
-import {Skill, WorkExperiences, Works} from "../modules/interfaces";
+import {Educations, Skill, WorkExperiences, Works} from "../modules/interfaces";
 
 export const skillsArray: Array<Skill> = [
     {
@@ -145,6 +145,19 @@ export const workExperienceItems: WorkExperiences[] = [
         location: "Lithuania",
         duration: "Sep 2021 - Dec 2025",
         stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    }
+];
+
+export const educationItems: Educations[] = [
+    {
+        universityTitle: "Belarusian National Technical University",
+        specialization: "Design Engineer",
+        period: "2006 - 2011",
+    },
+    {
+        universityTitle: "Belarusian National Technical University",
+        specialization: "Design Engineer",
+        period: "2006 - 2011",
     }
 ];
 
