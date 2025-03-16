@@ -10,7 +10,7 @@ const StyledWorkExperience = styled.details`
         position: absolute;
         content: "";
         left: 0;
-        top: 58px;
+        top: 69px;
         height: 2px;
         width: 0;
         background-image: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
@@ -78,6 +78,10 @@ const WorkExperienceTitle = styled.summary<{isOpen: boolean}>`
         height: 20px;
         box-shadow: 0 0 20px 10px rgb(0, 255, 255, 0.7);
         
+    }
+
+    &::-webkit-details-marker {
+        display: none;
     }
 `;
 

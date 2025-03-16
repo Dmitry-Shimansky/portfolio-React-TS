@@ -78,6 +78,10 @@ const EducationTitle =styled.summary<{isOpen: boolean}>`
         height: 20px;
         box-shadow: 0 0 20px 10px rgb(0, 255, 255, 0.7);
     }
+
+    &::-webkit-details-marker {
+        display: none;
+    }
 `;
 
 const EducationsList = styled.ul`

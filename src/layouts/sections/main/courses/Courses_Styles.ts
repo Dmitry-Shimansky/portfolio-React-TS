@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {Theme} from "../../../../styles/Theme";
 
-const StyledEducation = styled.details`
+const StyledCourses = styled.details`
     position: relative;
     max-width: 60%;
     margin-bottom: 38px;
@@ -27,7 +27,7 @@ const StyledEducation = styled.details`
     }
 `;
 
-const EducationTitle =styled.summary<{isOpen: boolean}>`
+const CoursesTitle =styled.summary<{isOpen: boolean}>`
     display: flex;
     align-items: center;
     gap: 10px;
@@ -78,9 +78,13 @@ const EducationTitle =styled.summary<{isOpen: boolean}>`
         height: 20px;
         box-shadow: 0 0 20px 10px rgb(0, 255, 255, 0.7);
     }
+
+    &::-webkit-details-marker {
+        display: none;
+    }
 `;
 
-const EducationsList = styled.ul`
+const CoursesList = styled.ul`
     position: relative;
     transition: ${Theme.animations.transition};
     background-color: rgba(237, 242, 244, 0.7);
@@ -109,7 +113,7 @@ const ListItem = styled.li`
     }
 `;
 
-const UniversityTitle = styled.h3`
+const CourseTitle = styled.h3`
     color: rgb(102, 102, 102);
     font-size: 20px;
     font-weight: 400;
@@ -119,7 +123,7 @@ const UniversityTitle = styled.h3`
     grid-row: 1 / 2;
 `;
 
-const StdDescWrapper = styled.div`
+const CourseDescWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,12 +154,12 @@ const StudyPeriod = styled.div`
 `;
 
 export const S = {
-    StyledEducation,
-    EducationTitle,
-    EducationsList,
+    StyledCourses,
+    CoursesTitle,
+    CoursesList,
     ListItem,
-    UniversityTitle,
-    StdDescWrapper,
+    CourseTitle,
+    CourseDescWrapper,
     Specialization,
     StudyPeriod
 }

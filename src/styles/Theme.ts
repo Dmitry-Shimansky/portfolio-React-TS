@@ -4,7 +4,8 @@ export const Theme = {
         secondaryBg: "rgb(255, 255, 255)", //"rgba(255, 255, 255, 0.11)"
         sectionTitle: "rgb(66, 68, 110)",
         projectCardTitle: "rgb(0, 0, 0)",
-        accent: "rgb(251, 168, 32)",
+        // accent: "rgb(251, 168, 32)",
+        accent: "rgb(142, 202, 230)",
         // accent: "rgb(222, 24, 174)",
         placeholder: "rgb(0, 0, 0 0.5)",
         mainTitle: "rgb(66, 68, 110)",

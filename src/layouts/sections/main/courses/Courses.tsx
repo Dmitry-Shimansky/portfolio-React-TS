@@ -11,25 +11,25 @@ export const Courses = () => {
     const onDetailsBtnClick = () => {setDetailsIsOpen(!detailsIsOpen)};
 
     return (
-        <S.StyledEducation >
-            <S.EducationTitle onClick={onDetailsBtnClick} isOpen={detailsIsOpen}>
+        <S.StyledCourses >
+            <S.CoursesTitle onClick={onDetailsBtnClick} isOpen={detailsIsOpen}>
                 <MainTitle>Courses</MainTitle>
                 <Icon iconId={'arrow_down'} height={'20px'} width={'20px'} viewBox={'0 0 330 330'} fill={'#000'} />
-            </S.EducationTitle>
-            <S.EducationsList>
+            </S.CoursesTitle>
+            <S.CoursesList>
                 {educationItems.map((eduItem) => {
                     return (
                         <S.ListItem key={uuid()}>
-                            <S.UniversityTitle>{eduItem.universityTitle}</S.UniversityTitle>
+                            <S.CourseTitle>{eduItem.universityTitle}</S.CourseTitle>
                             <S.Specialization><span>Specialization:</span> {eduItem.specialization}</S.Specialization>
-                            <S.StdDescWrapper>
+                            <S.CourseDescWrapper>
                                 <Icon iconId={'calendar'} width={'12px'} height={'12px'} viewBox={'0 0 16 12'} stroke={'none'}/>
                                 <S.StudyPeriod>{eduItem.period}</S.StudyPeriod>
-                            </S.StdDescWrapper>
+                            </S.CourseDescWrapper>
                         </S.ListItem>
                     )
                 })}
-            </S.EducationsList>
-        </S.StyledEducation>
+            </S.CoursesList>
+        </S.StyledCourses>
     );
 };

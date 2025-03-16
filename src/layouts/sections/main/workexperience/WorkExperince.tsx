@@ -7,11 +7,11 @@ import {S} from "./WorkExperience_Styles"
 
 export const WorkExperience = () => {
 
-    const [detailsIsOpen, setDetailsIsOpen] = useState(true)
+    const [detailsIsOpen, setDetailsIsOpen] = useState(false)
     const onDetailsBtnClick = () => {setDetailsIsOpen(!detailsIsOpen)};
 
     return (
-        <S.StyledWorkExperience>
+        <S.StyledWorkExperience open>
             <S.WorkExperienceTitle onClick={onDetailsBtnClick} isOpen={detailsIsOpen}>
                 <MainTitle>Work Experience</MainTitle>
                 <Icon iconId={'arrow_down'} height={'20px'} width={'20px'} viewBox={'0 0 330 330'} fill={'#000'} />

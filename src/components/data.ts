@@ -108,10 +108,6 @@ export const headerMenuItems: Array<{title: string, href: string}> = [
         href: "home"
     },
     {
-        title: "About",
-        href: "about"
-    },
-    {
         title: "Tech Stack",
         href: "techstack"
     },

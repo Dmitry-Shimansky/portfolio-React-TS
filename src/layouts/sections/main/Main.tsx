@@ -8,6 +8,7 @@ import {MainTitle} from "../../../components/MainTitle";
 import { WorkExperience } from './workexperience/WorkExperince';
 import { Education } from './education/Education';
 import { Courses } from './courses/Courses';
+import {AllCollapseExample} from "./workexperience/Accordion";
 
 export const Main = () => {
     return (
@@ -47,6 +48,7 @@ export const Main = () => {
                 <S.AboutMeText>
                     The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.
                 </S.AboutMeText>
+                {/*<AllCollapseExample/>*/}
                 <WorkExperience />
                 <Education />
                 <Courses />
