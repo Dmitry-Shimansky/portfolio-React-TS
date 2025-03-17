@@ -36,7 +36,7 @@ const PurpleBlock = styled.div`
     max-width: 436px;
     width: 100%;
     height: 198px;
-    background-color: rgb(255, 241, 255);
+    background-color: rgb(189, 224, 254, 0.5);
 `;
 
 export const S = {

@@ -48,12 +48,12 @@ export const Slider = () => {
                 disableDotsControls
                 renderPrevButton={() => {
                     return (
-                        <Icon iconId={'arrow-icon-left'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
+                        <Icon iconId={'arrow-icon-left'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'} stroke={'none'}/>
                     )
                 }}
                 renderNextButton={() => {
                     return (
-                        <Icon iconId={'arrow-icon-right'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'}/>
+                        <Icon iconId={'arrow-icon-right'} width={'42px'} height={'14px'} viewBox={'0 0 44 16'} stroke={'none'}/>
                     )
                 }}
             />
