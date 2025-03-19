@@ -3,7 +3,7 @@ import {Theme} from "../../../../styles/Theme";
 
 const StyledCourses = styled.details`
     position: relative;
-    max-width: 60%;
+    max-width: 720px;
     margin-bottom: 38px;
 
     & summary::after {
@@ -20,10 +20,6 @@ const StyledCourses = styled.details`
 
     &[open] summary::after {
         width: 100%;
-    }
-
-    @media ${Theme.media.tablet860} {
-        max-width: 100%;
     }
 `;
 
@@ -92,6 +88,7 @@ const CoursesList = styled.ul`
     //backdrop-filter: blur(10px);
     box-shadow: 0 0 20px 10px rgba(237, 242, 244, 0.7);
     border-radius: 10px;
+    border-bottom: 2px solid rgb(206, 206, 207);
 `;
 
 const ListItem = styled.li`
@@ -104,12 +101,16 @@ const ListItem = styled.li`
     margin-bottom: 44px;
     
     &:not(:last-child)::after {
-        position: relative;
-        top: 22px;
+        position: absolute;
+        bottom: -22px;
         content: "";
         height: 2px;
         width: 100%;
         background-color: rgb(235, 234, 237);
+    }
+
+    &:last-child {
+        margin-bottom: 0;
     }
 `;
 

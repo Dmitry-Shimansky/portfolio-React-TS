@@ -3,7 +3,7 @@ import {Theme} from "../../../../styles/Theme";
 
 const StyledWorkExperience = styled.details`
     position: relative;
-    max-width: 60%;
+    max-width: 720px;
     margin-bottom: 38px;
     
     & summary::after {
@@ -20,10 +20,6 @@ const StyledWorkExperience = styled.details`
     
     &[open] summary::after {
         width: 100%;
-    }
-
-    @media ${Theme.media.tablet860} {
-        max-width: 100%;
     }
 `;
 
@@ -77,7 +73,6 @@ const WorkExperienceTitle = styled.summary<{isOpen: boolean}>`
     &:hover::before {
         height: 20px;
         box-shadow: 0 0 20px 10px rgb(0, 255, 255, 0.7);
-        
     }
 
     &::-webkit-details-marker {
@@ -92,8 +87,6 @@ const WorkExperiencesList = styled.ul`
     //backdrop-filter: blur(10px);
     box-shadow: 0 0 20px 10px rgba(237, 242, 244, 0.7);
     border-radius: 10px;
-    max-height: 235px;
-    overflow-y: scroll;
     border-bottom: 2px solid rgb(206, 206, 207);
 `;
 
