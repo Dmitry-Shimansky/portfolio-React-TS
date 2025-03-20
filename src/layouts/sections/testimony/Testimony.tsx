@@ -16,7 +16,7 @@ export const Testimony = () => {
                 <S.ContentWrapper>
                     <S.FigureWrapper>
                         <S.PurpleBlock />
-                        <Icon iconId={'yellow-square'} width={'170px'} height={'155px'} viewBox={'0 0 40 32'} fill={`${Theme.colors.accent}`}/>
+                        <Icon iconId={'yellow-square'} width={'170px'} height={'155px'} viewBox={'0 0 40 32'} fill={`rgb(231, 15, 70)`}/>
                     </S.FigureWrapper>
                     <Slider />
                 </S.ContentWrapper>

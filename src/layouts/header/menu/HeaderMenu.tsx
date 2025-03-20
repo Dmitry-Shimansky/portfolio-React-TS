@@ -44,7 +44,7 @@ const StyledNav = styled.nav`
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 51px;
+    //gap: 51px;
     height: 100%;
     width: 100%;
 
@@ -59,10 +59,11 @@ const StyledNav = styled.nav`
 
 const List = styled.ul`
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     gap: 67px;
     height: 100%;
+    flex-grow: 1;
 
     @media ${Theme.media.desktop1100} {
         justify-content: space-between;
@@ -108,7 +109,7 @@ const NavLink = styled(Link)`
         display: inline-block;
         height: 1px;
         //background: linear-gradient(90deg, rgb(19, 176, 245), rgb(231, 15, 170));
-        background: ${Theme.colors.sectionTitle};
+        background: rgb(231, 15, 170);
         
         position: absolute;
         top: 50%;
@@ -122,7 +123,7 @@ const NavLink = styled(Link)`
 
     &:hover {
         ${Mask} {
-            color: ${Theme.colors.accent};
+            color: ${Theme.colors.buttons};
         }
     }
 
@@ -132,11 +133,11 @@ const NavLink = styled(Link)`
         }
 
         ${Mask} {
-            transform: skewX(12deg) translateX(5px);
-            color: ${Theme.colors.accent};
+            transform: skewX(5deg) translateX(1px);
+            color: ${Theme.colors.buttons};
 
             & + ${Mask} {
-                transform: skewX(12deg) translateX(-5px);
+                transform: skewX(5deg) translateX(-1px);
             }
         }
     }

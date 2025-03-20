@@ -24,7 +24,7 @@ const StyledIcons = styled.ul`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 22px;
+    gap: 30px;
     height: 100%;
 
     @media ${Theme.media.tablet} {
@@ -33,7 +33,6 @@ const StyledIcons = styled.ul`
 `;
 
 const LstItem = styled.li`
-    
 `;
 
 const Link = styled.a`
