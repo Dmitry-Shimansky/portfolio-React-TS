@@ -24,7 +24,7 @@ const StyledIcons = styled.ul`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 22px;
+    gap: 30px;
     height: 100%;
 
     @media ${Theme.media.tablet} {
@@ -33,22 +33,23 @@ const StyledIcons = styled.ul`
 `;
 
 const LstItem = styled.li`
-    
 `;
 
 const Link = styled.a`
-    &:hover #github {
-        fill: rgb(0, 0, 0);
+    #github,  
+    #linkedIn, 
+    #instagram-icon  {
         transition: ${Theme.animations.transition};
     }
-
-    &:hover #linkedIn {
-        fill: rgb(0, 119, 181);
-        transition: ${Theme.animations.transition};
-    }
-
-    &:hover #instagram-icon {
-        fill: #C837AB;
-        transition: ${Theme.animations.transition};
+    &:hover {
+        #github {
+            fill: rgb(0, 0, 0);
+        }
+        #linkedIn {
+            fill: rgb(0, 119, 181);
+        }
+        #instagram-icon {
+            fill: #C837AB;
+        }
     }
 `;

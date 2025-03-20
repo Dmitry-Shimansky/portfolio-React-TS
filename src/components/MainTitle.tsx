@@ -9,9 +9,9 @@ export const MainTitle = styled.h2`
     color: ${Theme.colors.mainTitle};
     letter-spacing: 0;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 38px;
     
-    //position: relative;
+    position: relative;
 
     @media ${Theme.media.mobile} {
         margin-bottom: 10px;

@@ -2,10 +2,11 @@ import styled from "styled-components";
 import {Theme} from "../styles/Theme";
 
 export const StyledButton = styled.button`
+    position: relative;
     width: 152px;
     height: 53px;
     color: rgb(255, 255, 255);
-    background-color: ${Theme.colors.accent};
+    background-color: ${Theme.colors.buttons};
     border-radius: 5px;
     font-size: 15px;
     font-weight: 500;

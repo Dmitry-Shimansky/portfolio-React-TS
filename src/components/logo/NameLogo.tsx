@@ -9,7 +9,6 @@ export const NameLogo = (props: NameLogoType) => {
             <S.FirstName fontSize={props.fontSize}>Dmitry</S.FirstName>
             <S.LastName fontSize={props.fontSize}>
                 Shimansky
-                <S.LastNameHelper fontSize={props.fontSize}>Shimansky</S.LastNameHelper>
             </S.LastName>
         </S.LogoWrapper>
     );

@@ -1,4 +1,4 @@
-import {Skill, Works} from "../modules/interfaces";
+import {Educations, Skill, WorkExperiences, Works} from "../modules/interfaces";
 
 export const skillsArray: Array<Skill> = [
     {
@@ -108,10 +108,6 @@ export const headerMenuItems: Array<{title: string, href: string}> = [
         href: "home"
     },
     {
-        title: "About",
-        href: "about"
-    },
-    {
         title: "Tech Stack",
         href: "techstack"
     },
@@ -123,6 +119,50 @@ export const headerMenuItems: Array<{title: string, href: string}> = [
         title: "Contacts",
         href: "contacts"
     }];
+
+export const workExperienceItems: WorkExperiences[] = [
+    {
+        jobTitle: "Junior Web Developer",
+        company: "Accenture",
+        location: "Lithuania",
+        duration: "Sep 2021 - Dec 2025",
+        stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    },
+    {
+        jobTitle: "Junior Web Developer",
+        company: "Accenture",
+        location: "Lithuania",
+        duration: "Sep 2021 - Dec 2025",
+        stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    },
+    {
+        jobTitle: "Junior Web Developer",
+        company: "Accenture",
+        location: "Lithuania",
+        duration: "Sep 2021 - Dec 2025",
+        stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    },
+    {
+        jobTitle: "Junior Web Developer",
+        company: "Accenture",
+        location: "Lithuania",
+        duration: "Sep 2021 - Dec 2025",
+        stack: ["ReactJS", "Type Script", "Git", "Java Script"]
+    }
+];
+
+export const educationItems: Educations[] = [
+    {
+        universityTitle: "Belarusian National Technical University",
+        specialization: "Design Engineer",
+        period: "2006 - 2011",
+    },
+    {
+        universityTitle: "Belarusian National Technical University",
+        specialization: "Design Engineer",
+        period: "2006 - 2011",
+    }
+];
 
 export const headerSocialIcons: string[] = ["github", "linkedIn", "instagram-icon"];
 

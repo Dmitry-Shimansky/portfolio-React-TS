@@ -84,7 +84,7 @@ const ButtonWrapper = styled.div`
     height: 87px;
     display: flex;
     border-radius: 10px;
-    background-color: rgb(252, 192, 40);
+    background-color: ${Theme.colors.accent};
 `;
 
 const ButtonLeft = styled.button`

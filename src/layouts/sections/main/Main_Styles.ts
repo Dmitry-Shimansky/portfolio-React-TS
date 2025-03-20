@@ -3,16 +3,18 @@ import {Theme} from "../../../styles/Theme";
 import {font} from "../../../styles/Common";
 
 const StyledMain = styled.section`
-    display: flex;
-    min-height: 800px;
+    // display: flex;
+    min-height: 100vh;
 `;
 
 const MainWrapper = styled.div`
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 100%;
+    margin-bottom: 40px;
+    // height: 100%;
 
     @media ${Theme.media.tablet} {
        flex-direction: column;
@@ -108,6 +110,19 @@ const Photo = styled.img`
     }
 `;
 
+const AboutMeText = styled.p`
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    max-width: 750px;
+    margin-bottom: 38px;
+
+    position: relative;
+`;
+
 export const S = {
     StyledMain,
     MainWrapper,
@@ -116,5 +131,6 @@ export const S = {
     Name,
     JobTitle,
     PhotoWrapper,
-    Photo
+    Photo,
+    AboutMeText
 }

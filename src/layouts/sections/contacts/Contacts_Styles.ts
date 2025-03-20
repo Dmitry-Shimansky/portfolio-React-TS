@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Theme} from "../../../styles/Theme";
 
 const StyledContacts = styled.section`
-    background: linear-gradient(180.00deg, rgba(236, 178, 46, 0.08),rgba(255, 255, 255, 0.11) 100%);
+    background: linear-gradient(180.00deg, rgba(216, 226, 220, 0.08),rgba(255, 255, 255, 0.11) 100%);
 `;
 
 const ContactsWrapper = styled.div`
@@ -62,7 +62,7 @@ const Field = styled.input`
     
     &:focus-visible {
         outline: 1px solid ${Theme.colors.accent};
-        box-shadow: 2px 2px 100px 0 rgba(251, 168, 32, 0.2);;
+        box-shadow: 2px 2px 100px 0 rgba(0, 255, 255, 0.4);;
     }
 `;
 
